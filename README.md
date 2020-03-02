@@ -1,4 +1,4 @@
 # Inku Fonts
 
 
-ዕንቁ means pearly in Amharic.
+ዕንቁ means pearl in Amharic.
