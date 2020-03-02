@@ -10,7 +10,7 @@ code = "gravecomb acutecomb uni0302 tildecomb uni0304 uni0307 uni0308 uni030B un
 name = GDEF_Mark;
 }
 );
-copyright = "Copyright (c) 2020-2039 by SIL International";
+copyright = "Copyright (c) 2020-2039";
 customParameters = (
 {
 name = hheaAscender;
