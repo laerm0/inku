@@ -86,7 +86,7 @@ value = (
 },
 {
 name = vendorID;
-value = "SIL ";
+value = "Geez Types";
 },
 {
 name = underlinePosition;
@@ -153,7 +153,7 @@ value = "Inku-Regular";
 },
 {
 name = postscriptFullName;
-value = "Inku SIL";
+value = "Inku";
 },
 {
 name = postscriptWeightName;
@@ -161,11 +161,11 @@ value = Regular;
 },
 {
 name = trademark;
-value = "Inku SIL is a trademark of Fidelat.";
+value = "Inku is a trademark of Geez Types.";
 },
 {
 name = styleMapFamilyName;
-value = "Inku SIL";
+value = "Inku";
 },
 {
 name = styleMapStyleName;
@@ -206,7 +206,7 @@ value = 5;
 );
 date = "2019-04-15 23:05:27 +0000";
 designer = "Josiah Solomon";
-familyName = "Inku SIL";
+familyName = "Geez Types";
 featurePrefixes = (
 {
 code = "languagesystem DFLT dflt;\012languagesystem ethi CHG ;\012languagesystem ethi dflt;\012languagesystem ethi GMZ ;\012\012\012# GSUB \012\012\012lookup SingleSubstitutionlookup0 {\012  lookupflag IgnoreMarks;\012    sub \\U by \\O ;\012    sub \\k by \\e ;\012    sub \\n by \\p ;\012    sub \\o by \\T ;\012    sub \\w by \\y ;\012} SingleSubstitutionlookup0;\012\012lookup MultipleSubstitutionlookup1 {\012  lookupflag IgnoreMarks;\012    sub \\n by \\p \\e ;\012} MultipleSubstitutionlookup1;\012\012lookup ccmpGlyphCompositionDecompositioninEthiopiclookup2 {\012  lookupflag IgnoreMarks;\012    sub [\\R ] [\\e ] [\\n ] [\\d ] [\\e ] [\\r ] [\\i ] [\\n ] [\\g ] [\\U ]'lookup SingleSubstitutionlookup0  [\\n ]' [\\k ]' [\\n ]' [\\o ]' [\\w ]' [\\n ]' ;\012} ccmpGlyphCompositionDecompositioninEthiopiclookup2;\012\012lookup loclLocalizedFormsinEthiopiclookup3 {\012  lookupflag 0;\012    sub \\uni1298 by \\uni1298.gumuz ;\012    sub \\uni1299 by \\uni1299.gumuz ;\012    sub \\uni129A by \\uni129A.gumuz ;\012    sub \\uni129B by \\uni129B.gumuz ;\012    sub \\uni129C by \\uni129C.gumuz ;\012    sub \\uni129D by \\uni129D.gumuz ;\012    sub \\uni129E by \\uni129E.gumuz ;\012} loclLocalizedFormsinEthiopiclookup3;\012\012lookup loclLocalizedFormsinEthiopiclookup4 {\012  lookupflag 0;\012    sub \\uni129F by \\uni129F.gumuz1 ;\012} loclLocalizedFormsinEthiopiclookup4;\012\012lookup loclLocalizedFormsinEthiopiclookup5 {\012  lookupflag 0;\012    sub \\uni1313 by \\uni1313.seb0 ;\012} loclLocalizedFormsinEthiopiclookup5;\012\012lookup SingleSubstitutioninEthiopiclookup6 {\012  lookupflag 0;\012    sub \\uni1318 by \\uni1318.alt1 ;\012    sub \\uni1319 by \\uni1319.alt1 ;\012    sub \\uni131A by \\uni131A.alt1 ;\012    sub \\uni131B by \\uni131B.alt1 ;\012    sub \\uni131C by \\uni131C.alt1 ;\012    sub \\uni131D by \\uni131D.alt1 ;\012    sub \\uni131E by \\uni131E.alt1 ;\012} SingleSubstitutioninEthiopiclookup6;\012\012lookup SingleSubstitutioninEthiopiclookup7 {\012  lookupflag 0;\012    sub \\uni131F by \\uni131F.type ;\012} SingleSubstitutioninEthiopiclookup7;\012\012lookup loclLocalizedFormsinEthiopiclookup8 {\012  lookupflag 0;\012    sub \\uni1381 by \\uni1381.seb5 ;\012} loclLocalizedFormsinEthiopiclookup8;\012\012lookup SingleSubstitutioninEthiopiclookup9 {\012  lookupflag 0;\012    sub \\uni2D93 by \\uni2D93.blin ;\012    sub \\uni2D94 by \\uni2D94.blin ;\012    sub \\uni2D95 by \\uni2D95.blin ;\012    sub \\uni2D96 by \\uni2D96.blin ;\012} SingleSubstitutioninEthiopiclookup9;\012\012lookup loclLocalizedFormsinEthiopiclookup10 {\012  lookupflag 0;\012    sub \\uni124A by \\uni124A.seb3 ;\012    sub \\uni12B2 by \\uni12B2.seb3 ;\012    sub \\uni12C2 by \\uni12C2.seb3 ;\012    sub \\uni1312 by \\uni1312.seb3 ;\012    sub \\uni1381 by \\uni1381.seb3 ;\012    sub \\uni1385 by \\uni1385.seb3 ;\012    sub \\uni138D by \\uni138D.seb3 ;\012} loclLocalizedFormsinEthiopiclookup10;\012\012lookup loclLocalizedFormsinEthiopiclookup11 {\012  lookupflag 0;\012    sub \\uni124D by \\uni124D.seb2 ;\012    sub \\uni12B5 by \\uni12B5.seb2 ;\012    sub \\uni12C5 by \\uni12C5.seb2 ;\012    sub \\uni1315 by \\uni1315.seb2 ;\012} loclLocalizedFormsinEthiopiclookup11;\012\012lookup cv01CharacterVariants01inEthiopiclookup12 {\012  lookupflag 0;\012    sub \\exclam by \\exclam.punct ;\012    sub \\dollar by \\dollar.punct ;\012    sub \\percent by \\percent.punct ;\012    sub \\asterisk by \\asterisk.punct ;\012    sub \\plus by \\plus.punct ;\012    sub \\slash by \\slash.punct ;\012    sub \\zero by \\zero.punct ;\012    sub \\one by \\one.punct ;\012    sub \\two by \\two.punct ;\012    sub \\three by \\three.punct ;\012    sub \\four by \\four.punct ;\012    sub \\five by \\five.punct ;\012    sub \\six by \\six.punct ;\012    sub \\seven by \\seven.punct ;\012    sub \\eight by \\eight.punct ;\012    sub \\nine by \\nine.punct ;\012    sub \\equal by \\equal.punct ;\012    sub \\question by \\question.punct ;\012    sub \\exclamdown by \\exclamdown.punct ;\012    sub \\copyright by \\copyright.punct ;\012    sub \\guillemotleft by \\guillemotleft.punct ;\012    sub \\onesuperior by \\onesuperior.punct ;\012    sub \\twosuperior by \\twosuperior.punct ;\012    sub \\threesuperior by \\threesuperior.punct ;\012    sub \\guillemotright by \\guillemotright.punct ;\012    sub \\multiply by \\multiply.punct ;\012    sub \\quoteleft by \\quoteleft.punct ;\012    sub \\quoteright by \\quoteright.punct ;\012    sub \\quotedblleft by \\quotedblleft.punct ;\012    sub \\quotedblright by \\quotedblright.punct ;\012    sub \\guilsinglleft by \\guilsinglleft.punct ;\012    sub \\guilsinglright by \\guilsinglright.punct ;\012    sub \\zerosuperior by \\zerosuperior.punct ;\012    sub \\foursuperior by \\foursuperior.punct ;\012    sub \\fivesuperior by \\fivesuperior.punct ;\012    sub \\sixsuperior by \\sixsuperior.punct ;\012    sub \\sevensuperior by \\sevensuperior.punct ;\012    sub \\eightsuperior by \\eightsuperior.punct ;\012    sub \\ninesuperior by \\ninesuperior.punct ;\012    sub \\Euro by \\Euro.punct ;\012} cv01CharacterVariants01inEthiopiclookup12;\012\012lookup cv04CharacterVariants04inEthiopiclookup13 {\012  lookupflag 0;\012    sub \\uni121F from [\\uni121F.cohen1 \\uni121F.cohen2 ];\012} cv04CharacterVariants04inEthiopiclookup13;\012\012lookup cv05CharacterVariants05inEthiopiclookup14 {\012  lookupflag 0;\012    sub \\uni122F by \\uni122F.cohen3 ;\012} cv05CharacterVariants05inEthiopiclookup14;\012\012lookup SingleSubstitutioninEthiopiclookup15 {\012  lookupflag 0;\012    sub \\uni1287 by \\uni1287.alt3 ;\012} SingleSubstitutioninEthiopiclookup15;\012\012lookup SingleSubstitutioninEthiopiclookup16 {\012  lookupflag 0;\012    sub \\uni1288 by \\uni1288.handwriting ;\012    sub \\uni128A by \\uni128A.handwriting ;\012    sub \\uni128B by \\uni128B.handwriting ;\012    sub \\uni128C by \\uni128C.handwriting ;\012    sub \\uni128D by \\uni128D.handwriting ;\012} SingleSubstitutioninEthiopiclookup16;\012\012lookup SingleSubstitutioninEthiopiclookup17 {\012  lookupflag 0;\012    sub \\uni1297 by \\uni1297.cohen0 ;\012} SingleSubstitutioninEthiopiclookup17;\012\012lookup AlternateSubstitutioninEthiopiclookup18 {\012  lookupflag 0;\012    sub \\uni129F from [\\uni129F.gumuz1 \\uni129F.cohen8 ];\012} AlternateSubstitutioninEthiopiclookup18;\012\012lookup SingleSubstitutioninEthiopiclookup19 {\012  lookupflag 0;\012    sub \\uni12C3 by \\uni12C3.cohen7 ;\012} SingleSubstitutioninEthiopiclookup19;\012\012lookup AlternateSubstitutioninEthiopiclookup20 {\012  lookupflag 0;\012    sub \\uni12E0 from [\\uni12E0.cohen6 \\uni12E0.chaine ];\012    sub \\uni12E1 from [\\uni12E1.cohen6 \\uni12E1.chaine ];\012    sub \\uni12E3 from [\\uni12E3.cohen6 \\uni12E3.chaine ];\012    sub \\uni12E4 from [\\uni12E4.cohen6 \\uni12E4.chaine ];\012    sub \\uni12E5 from [\\uni12E5.cohen6 \\uni12E5.chaine ];\012    sub \\uni12E6 from [\\uni12E6.cohen6 \\uni12E6.chaine ];\012} AlternateSubstitutioninEthiopiclookup20;\012\012lookup SingleSubstitutioninEthiopiclookup21 {\012  lookupflag 0;\012    sub \\uni12F8 by \\uni12F8.oromo ;\012    sub \\uni12F9 by \\uni12F9.oromo ;\012    sub \\uni12FA by \\uni12FA.oromo ;\012    sub \\uni12FB by \\uni12FB.oromo ;\012    sub \\uni12FC by \\uni12FC.oromo ;\012    sub \\uni12FD by \\uni12FD.oromo ;\012    sub \\uni12FE by \\uni12FE.oromo ;\012} SingleSubstitutioninEthiopiclookup21;\012\012lookup AlternateSubstitutioninEthiopiclookup22 {\012  lookupflag 0;\012    sub \\uni1313 from [\\uni1313.seb0 \\uni1313.alonestokes ];\012} AlternateSubstitutioninEthiopiclookup22;\012\012lookup SingleSubstitutioninEthiopiclookup23 {\012  lookupflag 0;\012    sub \\uni1335 by \\uni1335.praetorius ;\012} SingleSubstitutioninEthiopiclookup23;\012\012lookup SingleSubstitutioninEthiopiclookup24 {\012  lookupflag 0;\012    sub \\uni1297 by \\uni1297.oldstyle ;\012    sub \\uni12C3 by \\uni12C3.oldstyle ;\012    sub \\uni12E5 by \\uni12E5.oldstyle ;\012    sub \\uni1313 by \\uni1313.oldstyle ;\012    sub \\uni133F by \\uni133F.oldstyle ;\012    sub \\uni134F by \\uni134F.oldstyle ;\012} SingleSubstitutioninEthiopiclookup24;\012\012lookup AlternateSubstitutioninEthiopiclookup25 {\012  lookupflag 0;\012    sub \\uni134F from [\\uni134F.cohen4 \\uni134F.cohen5 ];\012} AlternateSubstitutioninEthiopiclookup25;\012\012lookup SingleSubstitutioninEthiopiclookup26 {\012  lookupflag 0;\012    sub \\uni1358 by \\uni1358.ala1 ;\012} SingleSubstitutioninEthiopiclookup26;\012\012lookup SingleSubstitutioninEthiopiclookup27 {\012  lookupflag 0;\012    sub \\uni1359 by \\uni1359.ala2 ;\012} SingleSubstitutioninEthiopiclookup27;\012\012lookup AlternateSubstitutioninEthiopiclookup28 {\012  lookupflag 0;\012    sub \\uni1381 from [\\uni1381.seb5 \\uni1381.sebLes1 ];\012} AlternateSubstitutioninEthiopiclookup28;\012\012lookup AlternateSubstitutioninEthiopiclookup29 {\012  lookupflag 0;\012    sub \\uni1383 from [\\uni1383.seb4 \\uni1383.sebLes4 ];\012} AlternateSubstitutioninEthiopiclookup29;\012\012lookup SingleSubstitutioninEthiopiclookup30 {\012  lookupflag 0;\012    sub \\uni1387 by \\uni1387.sebLes2 ;\012} SingleSubstitutioninEthiopiclookup30;\012\012lookup SingleSubstitutioninEthiopiclookup31 {\012  lookupflag 0;\012    sub \\uni138A by \\uni138A.trad ;\012} SingleSubstitutioninEthiopiclookup31;\012\012lookup SingleSubstitutioninEthiopiclookup32 {\012  lookupflag 0;\012    sub \\uni138B by \\uni138B.sebLes3 ;\012} SingleSubstitutioninEthiopiclookup32;\012\012lookup SingleSubstitutioninEthiopiclookup33 {\012  lookupflag 0;\012    sub \\uni138F by \\uni138F.sebLes5 ;\012} SingleSubstitutioninEthiopiclookup33;\012";
@@ -374,7 +374,7 @@ value = 0;
 },
 {
 name = description;
-value = "The Inku SIL font supports the Ethiopic script.";
+value = "The Inku font supports the Ethiopic script.";
 },
 {
 name = panose;
@@ -434,7 +434,7 @@ value = (
 },
 {
 name = vendorID;
-value = "SIL ";
+value = "Josiah";
 },
 {
 name = underlinePosition;
@@ -501,7 +501,7 @@ value = "Inku-Regular";
 },
 {
 name = postscriptFullName;
-value = "Inku SIL";
+value = "Inku-Regular";
 },
 {
 name = postscriptWeightName;
@@ -509,11 +509,11 @@ value = Regular;
 },
 {
 name = trademark;
-value = "Inku SIL is a trademark of Fidelat.";
+value = "Inku is a trademark of Geez Types.";
 },
 {
 name = styleMapFamilyName;
-value = "Inku SIL";
+value = "Geez Types";
 },
 {
 name = styleMapStyleName;
