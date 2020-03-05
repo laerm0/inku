@@ -2,3 +2,5 @@
 
 
 ዕንቁ means pearl in Amharic.
+
+![](images/InkuSample.jpg)
