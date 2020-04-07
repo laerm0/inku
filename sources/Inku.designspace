@@ -1,18 +1,32 @@
 <?xml version='1.0' encoding='UTF-8'?>
 <designspace format="4.0">
+  <axes>
+    <axis name="Weight" tag="wght" minimum="400" maximum="400" default="400">
+      <map input="400" output="400"/>
+    </axis>
+  </axes>
   <sources>
-    <source filename="InkuSIL-Regular.ufo" name="Inku SIL Regular" familyname="Inku SIL" stylename="Regular">
+    <source filename="Inku.glyphs" name="Inku SIL Regular" familyname="Inku SIL" stylename="Regular">
       <lib copy="1"/>
       <groups copy="1"/>
       <features copy="1"/>
       <info copy="1"/>
-      <location/>
+      <location>
+        <dimension name="Weight" xvalue="400" />
+      </location>
     </source>
   </sources>
+  <instances>
+    <instance name="Inku SIL Regular" familyname="Inku" stylename="Regular" stylemapfasmilyname="Inku SIL Regular" stylemapstylename="Regular">
+      <location>
+        <dimension name="Weight" xvalue="400" />
+      </location>
+    </instance>
+  </instances>
   <lib>
     <dict>
-      <key>com.github.googlei18n.ufo2ft.featureWriters</key>
-      <array>
+<!--       <key>com.github.googlei18n.ufo2ft.featureWriters />
+ -->      <array>
         <dict>
           <key>class</key>
           <string>KernFeatureWriter</string>
