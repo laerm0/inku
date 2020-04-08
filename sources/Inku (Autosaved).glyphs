@@ -29,21 +29,6 @@ name = description;
 value = "The Inku font supports the Ethiopic script.";
 },
 {
-name = panose;
-value = (
-2,
-0,
-0,
-0,
-0,
-0,
-0,
-0,
-0,
-0
-);
-},
-{
 name = fsType;
 value = (
 );
@@ -59,30 +44,6 @@ value = -682;
 {
 name = typoLineGap;
 value = 0;
-},
-{
-name = unicodeRanges;
-value = (
-0,
-1,
-2,
-3,
-5,
-6,
-7,
-31,
-32,
-33,
-35,
-38,
-45,
-47,
-60,
-62,
-67,
-69,
-75
-);
 },
 {
 name = underlinePosition;
@@ -192,6 +153,26 @@ value = 400;
 {
 name = widthClass;
 value = 5;
+},
+{
+name = license;
+value = "This Font Software is licensed under the SIL Open Font License, Version 1.1. This license is available with a FAQ at: http://scripts.sil.org/OFL";
+},
+{
+name = licenseURL;
+value = "http://scripts.sil.org/OFL";
+},
+{
+name = "Use Typo Metrics";
+value = 1;
+},
+{
+name = "Disable Last Change";
+value = 1;
+},
+{
+name = "Use Line Breaks";
+value = 1;
 }
 );
 date = "2019-04-15 23:05:27 +0000";
@@ -199,149 +180,1296 @@ designer = "Josiah Solomon";
 familyName = Inku;
 featurePrefixes = (
 {
-code = "languagesystem DFLT dflt;\012languagesystem ethi CHG ;\012languagesystem ethi dflt;\012languagesystem ethi GMZ ;\012\012\012# GSUB \012\012\012lookup SingleSubstitutionlookup0 {\012  lookupflag IgnoreMarks;\012    sub \\U by \\O ;\012    sub \\k by \\e ;\012    sub \\n by \\p ;\012    sub \\o by \\T ;\012    sub \\w by \\y ;\012} SingleSubstitutionlookup0;\012\012lookup MultipleSubstitutionlookup1 {\012  lookupflag IgnoreMarks;\012    sub \\n by \\p \\e ;\012} MultipleSubstitutionlookup1;\012\012lookup ccmpGlyphCompositionDecompositioninEthiopiclookup2 {\012  lookupflag IgnoreMarks;\012    sub [\\R ] [\\e ] [\\n ] [\\d ] [\\e ] [\\r ] [\\i ] [\\n ] [\\g ] [\\U ]'lookup SingleSubstitutionlookup0  [\\n ]' [\\k ]' [\\n ]' [\\o ]' [\\w ]' [\\n ]' ;\012} ccmpGlyphCompositionDecompositioninEthiopiclookup2;\012\012lookup loclLocalizedFormsinEthiopiclookup3 {\012  lookupflag 0;\012    sub \\uni1298 by \\uni1298.gumuz ;\012    sub \\uni1299 by \\uni1299.gumuz ;\012    sub \\uni129A by \\uni129A.gumuz ;\012    sub \\uni129B by \\uni129B.gumuz ;\012    sub \\uni129C by \\uni129C.gumuz ;\012    sub \\uni129D by \\uni129D.gumuz ;\012    sub \\uni129E by \\uni129E.gumuz ;\012} loclLocalizedFormsinEthiopiclookup3;\012\012lookup loclLocalizedFormsinEthiopiclookup4 {\012  lookupflag 0;\012    sub \\uni129F by \\uni129F.gumuz1 ;\012} loclLocalizedFormsinEthiopiclookup4;\012\012lookup loclLocalizedFormsinEthiopiclookup5 {\012  lookupflag 0;\012    sub \\uni1313 by \\uni1313.seb0 ;\012} loclLocalizedFormsinEthiopiclookup5;\012\012lookup SingleSubstitutioninEthiopiclookup6 {\012  lookupflag 0;\012    sub \\uni1318 by \\uni1318.alt1 ;\012    sub \\uni1319 by \\uni1319.alt1 ;\012    sub \\uni131A by \\uni131A.alt1 ;\012    sub \\uni131B by \\uni131B.alt1 ;\012    sub \\uni131C by \\uni131C.alt1 ;\012    sub \\uni131D by \\uni131D.alt1 ;\012    sub \\uni131E by \\uni131E.alt1 ;\012} SingleSubstitutioninEthiopiclookup6;\012\012lookup SingleSubstitutioninEthiopiclookup7 {\012  lookupflag 0;\012    sub \\uni131F by \\uni131F.type ;\012} SingleSubstitutioninEthiopiclookup7;\012\012lookup loclLocalizedFormsinEthiopiclookup8 {\012  lookupflag 0;\012    sub \\uni1381 by \\uni1381.seb5 ;\012} loclLocalizedFormsinEthiopiclookup8;\012\012lookup SingleSubstitutioninEthiopiclookup9 {\012  lookupflag 0;\012    sub \\uni2D93 by \\uni2D93.blin ;\012    sub \\uni2D94 by \\uni2D94.blin ;\012    sub \\uni2D95 by \\uni2D95.blin ;\012    sub \\uni2D96 by \\uni2D96.blin ;\012} SingleSubstitutioninEthiopiclookup9;\012\012lookup loclLocalizedFormsinEthiopiclookup10 {\012  lookupflag 0;\012    sub \\uni124A by \\uni124A.seb3 ;\012    sub \\uni12B2 by \\uni12B2.seb3 ;\012    sub \\uni12C2 by \\uni12C2.seb3 ;\012    sub \\uni1312 by \\uni1312.seb3 ;\012    sub \\uni1381 by \\uni1381.seb3 ;\012    sub \\uni1385 by \\uni1385.seb3 ;\012    sub \\uni138D by \\uni138D.seb3 ;\012} loclLocalizedFormsinEthiopiclookup10;\012\012lookup loclLocalizedFormsinEthiopiclookup11 {\012  lookupflag 0;\012    sub \\uni124D by \\uni124D.seb2 ;\012    sub \\uni12B5 by \\uni12B5.seb2 ;\012    sub \\uni12C5 by \\uni12C5.seb2 ;\012    sub \\uni1315 by \\uni1315.seb2 ;\012} loclLocalizedFormsinEthiopiclookup11;\012\012lookup cv01CharacterVariants01inEthiopiclookup12 {\012  lookupflag 0;\012    sub \\exclam by \\exclam.punct ;\012    sub \\dollar by \\dollar.punct ;\012    sub \\percent by \\percent.punct ;\012    sub \\asterisk by \\asterisk.punct ;\012    sub \\plus by \\plus.punct ;\012    sub \\slash by \\slash.punct ;\012    sub \\zero by \\zero.punct ;\012    sub \\one by \\one.punct ;\012    sub \\two by \\two.punct ;\012    sub \\three by \\three.punct ;\012    sub \\four by \\four.punct ;\012    sub \\five by \\five.punct ;\012    sub \\six by \\six.punct ;\012    sub \\seven by \\seven.punct ;\012    sub \\eight by \\eight.punct ;\012    sub \\nine by \\nine.punct ;\012    sub \\equal by \\equal.punct ;\012    sub \\question by \\question.punct ;\012    sub \\exclamdown by \\exclamdown.punct ;\012    sub \\copyright by \\copyright.punct ;\012    sub \\guillemotleft by \\guillemotleft.punct ;\012    sub \\onesuperior by \\onesuperior.punct ;\012    sub \\twosuperior by \\twosuperior.punct ;\012    sub \\threesuperior by \\threesuperior.punct ;\012    sub \\guillemotright by \\guillemotright.punct ;\012    sub \\multiply by \\multiply.punct ;\012    sub \\quoteleft by \\quoteleft.punct ;\012    sub \\quoteright by \\quoteright.punct ;\012    sub \\quotedblleft by \\quotedblleft.punct ;\012    sub \\quotedblright by \\quotedblright.punct ;\012    sub \\guilsinglleft by \\guilsinglleft.punct ;\012    sub \\guilsinglright by \\guilsinglright.punct ;\012    sub \\zerosuperior by \\zerosuperior.punct ;\012    sub \\foursuperior by \\foursuperior.punct ;\012    sub \\fivesuperior by \\fivesuperior.punct ;\012    sub \\sixsuperior by \\sixsuperior.punct ;\012    sub \\sevensuperior by \\sevensuperior.punct ;\012    sub \\eightsuperior by \\eightsuperior.punct ;\012    sub \\ninesuperior by \\ninesuperior.punct ;\012    sub \\Euro by \\Euro.punct ;\012} cv01CharacterVariants01inEthiopiclookup12;\012\012lookup cv04CharacterVariants04inEthiopiclookup13 {\012  lookupflag 0;\012    sub \\uni121F from [\\uni121F.cohen1 \\uni121F.cohen2 ];\012} cv04CharacterVariants04inEthiopiclookup13;\012\012lookup cv05CharacterVariants05inEthiopiclookup14 {\012  lookupflag 0;\012    sub \\uni122F by \\uni122F.cohen3 ;\012} cv05CharacterVariants05inEthiopiclookup14;\012\012lookup SingleSubstitutioninEthiopiclookup15 {\012  lookupflag 0;\012    sub \\uni1287 by \\uni1287.alt3 ;\012} SingleSubstitutioninEthiopiclookup15;\012\012lookup SingleSubstitutioninEthiopiclookup16 {\012  lookupflag 0;\012    sub \\uni1288 by \\uni1288.handwriting ;\012    sub \\uni128A by \\uni128A.handwriting ;\012    sub \\uni128B by \\uni128B.handwriting ;\012    sub \\uni128C by \\uni128C.handwriting ;\012    sub \\uni128D by \\uni128D.handwriting ;\012} SingleSubstitutioninEthiopiclookup16;\012\012lookup SingleSubstitutioninEthiopiclookup17 {\012  lookupflag 0;\012    sub \\uni1297 by \\uni1297.cohen0 ;\012} SingleSubstitutioninEthiopiclookup17;\012\012lookup AlternateSubstitutioninEthiopiclookup18 {\012  lookupflag 0;\012    sub \\uni129F from [\\uni129F.gumuz1 \\uni129F.cohen8 ];\012} AlternateSubstitutioninEthiopiclookup18;\012\012lookup SingleSubstitutioninEthiopiclookup19 {\012  lookupflag 0;\012    sub \\uni12C3 by \\uni12C3.cohen7 ;\012} SingleSubstitutioninEthiopiclookup19;\012\012lookup AlternateSubstitutioninEthiopiclookup20 {\012  lookupflag 0;\012    sub \\uni12E0 from [\\uni12E0.cohen6 \\uni12E0.chaine ];\012    sub \\uni12E1 from [\\uni12E1.cohen6 \\uni12E1.chaine ];\012    sub \\uni12E3 from [\\uni12E3.cohen6 \\uni12E3.chaine ];\012    sub \\uni12E4 from [\\uni12E4.cohen6 \\uni12E4.chaine ];\012    sub \\uni12E5 from [\\uni12E5.cohen6 \\uni12E5.chaine ];\012    sub \\uni12E6 from [\\uni12E6.cohen6 \\uni12E6.chaine ];\012} AlternateSubstitutioninEthiopiclookup20;\012\012lookup SingleSubstitutioninEthiopiclookup21 {\012  lookupflag 0;\012    sub \\uni12F8 by \\uni12F8.oromo ;\012    sub \\uni12F9 by \\uni12F9.oromo ;\012    sub \\uni12FA by \\uni12FA.oromo ;\012    sub \\uni12FB by \\uni12FB.oromo ;\012    sub \\uni12FC by \\uni12FC.oromo ;\012    sub \\uni12FD by \\uni12FD.oromo ;\012    sub \\uni12FE by \\uni12FE.oromo ;\012} SingleSubstitutioninEthiopiclookup21;\012\012lookup AlternateSubstitutioninEthiopiclookup22 {\012  lookupflag 0;\012    sub \\uni1313 from [\\uni1313.seb0 \\uni1313.alonestokes ];\012} AlternateSubstitutioninEthiopiclookup22;\012\012lookup SingleSubstitutioninEthiopiclookup23 {\012  lookupflag 0;\012    sub \\uni1335 by \\uni1335.praetorius ;\012} SingleSubstitutioninEthiopiclookup23;\012\012lookup SingleSubstitutioninEthiopiclookup24 {\012  lookupflag 0;\012    sub \\uni1297 by \\uni1297.oldstyle ;\012    sub \\uni12C3 by \\uni12C3.oldstyle ;\012    sub \\uni12E5 by \\uni12E5.oldstyle ;\012    sub \\uni1313 by \\uni1313.oldstyle ;\012    sub \\uni133F by \\uni133F.oldstyle ;\012    sub \\uni134F by \\uni134F.oldstyle ;\012} SingleSubstitutioninEthiopiclookup24;\012\012lookup AlternateSubstitutioninEthiopiclookup25 {\012  lookupflag 0;\012    sub \\uni134F from [\\uni134F.cohen4 \\uni134F.cohen5 ];\012} AlternateSubstitutioninEthiopiclookup25;\012\012lookup SingleSubstitutioninEthiopiclookup26 {\012  lookupflag 0;\012    sub \\uni1358 by \\uni1358.ala1 ;\012} SingleSubstitutioninEthiopiclookup26;\012\012lookup SingleSubstitutioninEthiopiclookup27 {\012  lookupflag 0;\012    sub \\uni1359 by \\uni1359.ala2 ;\012} SingleSubstitutioninEthiopiclookup27;\012\012lookup AlternateSubstitutioninEthiopiclookup28 {\012  lookupflag 0;\012    sub \\uni1381 from [\\uni1381.seb5 \\uni1381.sebLes1 ];\012} AlternateSubstitutioninEthiopiclookup28;\012\012lookup AlternateSubstitutioninEthiopiclookup29 {\012  lookupflag 0;\012    sub \\uni1383 from [\\uni1383.seb4 \\uni1383.sebLes4 ];\012} AlternateSubstitutioninEthiopiclookup29;\012\012lookup SingleSubstitutioninEthiopiclookup30 {\012  lookupflag 0;\012    sub \\uni1387 by \\uni1387.sebLes2 ;\012} SingleSubstitutioninEthiopiclookup30;\012\012lookup SingleSubstitutioninEthiopiclookup31 {\012  lookupflag 0;\012    sub \\uni138A by \\uni138A.trad ;\012} SingleSubstitutioninEthiopiclookup31;\012\012lookup SingleSubstitutioninEthiopiclookup32 {\012  lookupflag 0;\012    sub \\uni138B by \\uni138B.sebLes3 ;\012} SingleSubstitutioninEthiopiclookup32;\012\012lookup SingleSubstitutioninEthiopiclookup33 {\012  lookupflag 0;\012    sub \\uni138F by \\uni138F.sebLes5 ;\012} SingleSubstitutioninEthiopiclookup33;\012";
+code = "languagesystem DFLT dflt;
+languagesystem ethi CHG ;
+languagesystem ethi dflt;
+languagesystem ethi GMZ ;
+
+
+# GSUB 
+
+
+lookup SingleSubstitutionlookup0 {
+  lookupflag IgnoreMarks;
+    sub \\U by \\O ;
+    sub \\k by \\e ;
+    sub \\n by \\p ;
+    sub \\o by \\T ;
+    sub \\w by \\y ;
+} SingleSubstitutionlookup0;
+
+lookup MultipleSubstitutionlookup1 {
+  lookupflag IgnoreMarks;
+    sub \\n by \\p \\e ;
+} MultipleSubstitutionlookup1;
+
+lookup ccmpGlyphCompositionDecompositioninEthiopiclookup2 {
+  lookupflag IgnoreMarks;
+    sub [\\R ] [\\e ] [\\n ] [\\d ] [\\e ] [\\r ] [\\i ] [\\n ] [\\g ] [\\U ]'lookup SingleSubstitutionlookup0  [\\n ]' [\\k ]' [\\n ]' [\\o ]' [\\w ]' [\\n ]' ;
+} ccmpGlyphCompositionDecompositioninEthiopiclookup2;
+
+lookup loclLocalizedFormsinEthiopiclookup3 {
+  lookupflag 0;
+    sub \\uni1298 by \\uni1298.gumuz ;
+    sub \\uni1299 by \\uni1299.gumuz ;
+    sub \\uni129A by \\uni129A.gumuz ;
+    sub \\uni129B by \\uni129B.gumuz ;
+    sub \\uni129C by \\uni129C.gumuz ;
+    sub \\uni129D by \\uni129D.gumuz ;
+    sub \\uni129E by \\uni129E.gumuz ;
+} loclLocalizedFormsinEthiopiclookup3;
+
+lookup loclLocalizedFormsinEthiopiclookup4 {
+  lookupflag 0;
+    sub \\uni129F by \\uni129F.gumuz1 ;
+} loclLocalizedFormsinEthiopiclookup4;
+
+lookup loclLocalizedFormsinEthiopiclookup5 {
+  lookupflag 0;
+    sub \\uni1313 by \\uni1313.seb0 ;
+} loclLocalizedFormsinEthiopiclookup5;
+
+lookup SingleSubstitutioninEthiopiclookup6 {
+  lookupflag 0;
+    sub \\uni1318 by \\uni1318.alt1 ;
+    sub \\uni1319 by \\uni1319.alt1 ;
+    sub \\uni131A by \\uni131A.alt1 ;
+    sub \\uni131B by \\uni131B.alt1 ;
+    sub \\uni131C by \\uni131C.alt1 ;
+    sub \\uni131D by \\uni131D.alt1 ;
+    sub \\uni131E by \\uni131E.alt1 ;
+} SingleSubstitutioninEthiopiclookup6;
+
+lookup SingleSubstitutioninEthiopiclookup7 {
+  lookupflag 0;
+    sub \\uni131F by \\uni131F.type ;
+} SingleSubstitutioninEthiopiclookup7;
+
+lookup loclLocalizedFormsinEthiopiclookup8 {
+  lookupflag 0;
+    sub \\uni1381 by \\uni1381.seb5 ;
+} loclLocalizedFormsinEthiopiclookup8;
+
+lookup SingleSubstitutioninEthiopiclookup9 {
+  lookupflag 0;
+    sub \\uni2D93 by \\uni2D93.blin ;
+    sub \\uni2D94 by \\uni2D94.blin ;
+    sub \\uni2D95 by \\uni2D95.blin ;
+    sub \\uni2D96 by \\uni2D96.blin ;
+} SingleSubstitutioninEthiopiclookup9;
+
+lookup loclLocalizedFormsinEthiopiclookup10 {
+  lookupflag 0;
+    sub \\uni124A by \\uni124A.seb3 ;
+    sub \\uni12B2 by \\uni12B2.seb3 ;
+    sub \\uni12C2 by \\uni12C2.seb3 ;
+    sub \\uni1312 by \\uni1312.seb3 ;
+    sub \\uni1381 by \\uni1381.seb3 ;
+    sub \\uni1385 by \\uni1385.seb3 ;
+    sub \\uni138D by \\uni138D.seb3 ;
+} loclLocalizedFormsinEthiopiclookup10;
+
+lookup loclLocalizedFormsinEthiopiclookup11 {
+  lookupflag 0;
+    sub \\uni124D by \\uni124D.seb2 ;
+    sub \\uni12B5 by \\uni12B5.seb2 ;
+    sub \\uni12C5 by \\uni12C5.seb2 ;
+    sub \\uni1315 by \\uni1315.seb2 ;
+} loclLocalizedFormsinEthiopiclookup11;
+
+lookup cv01CharacterVariants01inEthiopiclookup12 {
+  lookupflag 0;
+    sub \\exclam by \\exclam.punct ;
+    sub \\dollar by \\dollar.punct ;
+    sub \\percent by \\percent.punct ;
+    sub \\asterisk by \\asterisk.punct ;
+    sub \\plus by \\plus.punct ;
+    sub \\slash by \\slash.punct ;
+    sub \\zero by \\zero.punct ;
+    sub \\one by \\one.punct ;
+    sub \\two by \\two.punct ;
+    sub \\three by \\three.punct ;
+    sub \\four by \\four.punct ;
+    sub \\five by \\five.punct ;
+    sub \\six by \\six.punct ;
+    sub \\seven by \\seven.punct ;
+    sub \\eight by \\eight.punct ;
+    sub \\nine by \\nine.punct ;
+    sub \\equal by \\equal.punct ;
+    sub \\question by \\question.punct ;
+    sub \\exclamdown by \\exclamdown.punct ;
+    sub \\copyright by \\copyright.punct ;
+    sub \\guillemotleft by \\guillemotleft.punct ;
+    sub \\onesuperior by \\onesuperior.punct ;
+    sub \\twosuperior by \\twosuperior.punct ;
+    sub \\threesuperior by \\threesuperior.punct ;
+    sub \\guillemotright by \\guillemotright.punct ;
+    sub \\multiply by \\multiply.punct ;
+    sub \\quoteleft by \\quoteleft.punct ;
+    sub \\quoteright by \\quoteright.punct ;
+    sub \\quotedblleft by \\quotedblleft.punct ;
+    sub \\quotedblright by \\quotedblright.punct ;
+    sub \\guilsinglleft by \\guilsinglleft.punct ;
+    sub \\guilsinglright by \\guilsinglright.punct ;
+    sub \\zerosuperior by \\zerosuperior.punct ;
+    sub \\foursuperior by \\foursuperior.punct ;
+    sub \\fivesuperior by \\fivesuperior.punct ;
+    sub \\sixsuperior by \\sixsuperior.punct ;
+    sub \\sevensuperior by \\sevensuperior.punct ;
+    sub \\eightsuperior by \\eightsuperior.punct ;
+    sub \\ninesuperior by \\ninesuperior.punct ;
+    sub \\Euro by \\Euro.punct ;
+} cv01CharacterVariants01inEthiopiclookup12;
+
+lookup cv04CharacterVariants04inEthiopiclookup13 {
+  lookupflag 0;
+    sub \\uni121F from [\\uni121F.cohen1 \\uni121F.cohen2 ];
+} cv04CharacterVariants04inEthiopiclookup13;
+
+lookup cv05CharacterVariants05inEthiopiclookup14 {
+  lookupflag 0;
+    sub \\uni122F by \\uni122F.cohen3 ;
+} cv05CharacterVariants05inEthiopiclookup14;
+
+lookup SingleSubstitutioninEthiopiclookup15 {
+  lookupflag 0;
+    sub \\uni1287 by \\uni1287.alt3 ;
+} SingleSubstitutioninEthiopiclookup15;
+
+lookup SingleSubstitutioninEthiopiclookup16 {
+  lookupflag 0;
+    sub \\uni1288 by \\uni1288.handwriting ;
+    sub \\uni128A by \\uni128A.handwriting ;
+    sub \\uni128B by \\uni128B.handwriting ;
+    sub \\uni128C by \\uni128C.handwriting ;
+    sub \\uni128D by \\uni128D.handwriting ;
+} SingleSubstitutioninEthiopiclookup16;
+
+lookup SingleSubstitutioninEthiopiclookup17 {
+  lookupflag 0;
+    sub \\uni1297 by \\uni1297.cohen0 ;
+} SingleSubstitutioninEthiopiclookup17;
+
+lookup AlternateSubstitutioninEthiopiclookup18 {
+  lookupflag 0;
+    sub \\uni129F from [\\uni129F.gumuz1 \\uni129F.cohen8 ];
+} AlternateSubstitutioninEthiopiclookup18;
+
+lookup SingleSubstitutioninEthiopiclookup19 {
+  lookupflag 0;
+    sub \\uni12C3 by \\uni12C3.cohen7 ;
+} SingleSubstitutioninEthiopiclookup19;
+
+lookup AlternateSubstitutioninEthiopiclookup20 {
+  lookupflag 0;
+    sub \\uni12E0 from [\\uni12E0.cohen6 \\uni12E0.chaine ];
+    sub \\uni12E1 from [\\uni12E1.cohen6 \\uni12E1.chaine ];
+    sub \\uni12E3 from [\\uni12E3.cohen6 \\uni12E3.chaine ];
+    sub \\uni12E4 from [\\uni12E4.cohen6 \\uni12E4.chaine ];
+    sub \\uni12E5 from [\\uni12E5.cohen6 \\uni12E5.chaine ];
+    sub \\uni12E6 from [\\uni12E6.cohen6 \\uni12E6.chaine ];
+} AlternateSubstitutioninEthiopiclookup20;
+
+lookup SingleSubstitutioninEthiopiclookup21 {
+  lookupflag 0;
+    sub \\uni12F8 by \\uni12F8.oromo ;
+    sub \\uni12F9 by \\uni12F9.oromo ;
+    sub \\uni12FA by \\uni12FA.oromo ;
+    sub \\uni12FB by \\uni12FB.oromo ;
+    sub \\uni12FC by \\uni12FC.oromo ;
+    sub \\uni12FD by \\uni12FD.oromo ;
+    sub \\uni12FE by \\uni12FE.oromo ;
+} SingleSubstitutioninEthiopiclookup21;
+
+lookup AlternateSubstitutioninEthiopiclookup22 {
+  lookupflag 0;
+    sub \\uni1313 from [\\uni1313.seb0 \\uni1313.alonestokes ];
+} AlternateSubstitutioninEthiopiclookup22;
+
+lookup SingleSubstitutioninEthiopiclookup23 {
+  lookupflag 0;
+    sub \\uni1335 by \\uni1335.praetorius ;
+} SingleSubstitutioninEthiopiclookup23;
+
+lookup SingleSubstitutioninEthiopiclookup24 {
+  lookupflag 0;
+    sub \\uni1297 by \\uni1297.oldstyle ;
+    sub \\uni12C3 by \\uni12C3.oldstyle ;
+    sub \\uni12E5 by \\uni12E5.oldstyle ;
+    sub \\uni1313 by \\uni1313.oldstyle ;
+    sub \\uni133F by \\uni133F.oldstyle ;
+    sub \\uni134F by \\uni134F.oldstyle ;
+} SingleSubstitutioninEthiopiclookup24;
+
+lookup AlternateSubstitutioninEthiopiclookup25 {
+  lookupflag 0;
+    sub \\uni134F from [\\uni134F.cohen4 \\uni134F.cohen5 ];
+} AlternateSubstitutioninEthiopiclookup25;
+
+lookup SingleSubstitutioninEthiopiclookup26 {
+  lookupflag 0;
+    sub \\uni1358 by \\uni1358.ala1 ;
+} SingleSubstitutioninEthiopiclookup26;
+
+lookup SingleSubstitutioninEthiopiclookup27 {
+  lookupflag 0;
+    sub \\uni1359 by \\uni1359.ala2 ;
+} SingleSubstitutioninEthiopiclookup27;
+
+lookup AlternateSubstitutioninEthiopiclookup28 {
+  lookupflag 0;
+    sub \\uni1381 from [\\uni1381.seb5 \\uni1381.sebLes1 ];
+} AlternateSubstitutioninEthiopiclookup28;
+
+lookup AlternateSubstitutioninEthiopiclookup29 {
+  lookupflag 0;
+    sub \\uni1383 from [\\uni1383.seb4 \\uni1383.sebLes4 ];
+} AlternateSubstitutioninEthiopiclookup29;
+
+lookup SingleSubstitutioninEthiopiclookup30 {
+  lookupflag 0;
+    sub \\uni1387 by \\uni1387.sebLes2 ;
+} SingleSubstitutioninEthiopiclookup30;
+
+lookup SingleSubstitutioninEthiopiclookup31 {
+  lookupflag 0;
+    sub \\uni138A by \\uni138A.trad ;
+} SingleSubstitutioninEthiopiclookup31;
+
+lookup SingleSubstitutioninEthiopiclookup32 {
+  lookupflag 0;
+    sub \\uni138B by \\uni138B.sebLes3 ;
+} SingleSubstitutioninEthiopiclookup32;
+
+lookup SingleSubstitutioninEthiopiclookup33 {
+  lookupflag 0;
+    sub \\uni138F by \\uni138F.sebLes5 ;
+} SingleSubstitutioninEthiopiclookup33;
+";
 name = "<anonymous>";
 },
 {
-code = "# GPOS \012\012\012lookup kernHorizontalKerninginEthiopiclookup0 {\012  lookupflag 0;\012} kernHorizontalKerninginEthiopiclookup0;\012\012lookup markMarkPositioninginEthiopiclookup1 {\012  lookupflag 0;\012  markClass [\\gravecomb \\acutecomb \\uni0302 \\tildecomb \\uni0304 \\uni0307 \\uni0308 \\uni030B \\uni030C \\uni030F \\uniE50F \\uniE51F ] <anchor -830 1450> @Anchor0;\012  markClass [\\uni034F ] <anchor 0 0> @Anchor0;\012  markClass [\\uni135D ] <anchor -547 1451> @Anchor0;\012  markClass [\\uni135E ] <anchor -547 1464> @Anchor0;\012  markClass [\\uni135F ] <anchor -546 1450> @Anchor0;\012  pos base [\\dotlessi ] <anchor 310 1100> mark @Anchor0;\012  pos base [\\Zcaron ] <anchor 610 1900> mark @Anchor0;\012  pos base [\\zcaron ] <anchor 483 1500> mark @Anchor0;\012  pos base [\\caron ] <anchor 335 1500> mark @Anchor0;\012  pos base [\\uni02C9 ] <anchor 343 1470> mark @Anchor0;\012  pos base [\\uni02D0 ] <anchor 261 1100> mark @Anchor0;\012  pos base [\\breve ] <anchor 305 1500> mark @Anchor0;\012  pos base [\\pi ] <anchor 608 1100> mark @Anchor0;\012  pos base [\\uni1200 ] <anchor 587 1241> mark @Anchor0;\012  pos base [\\uni1201 ] <anchor 610 1236> mark @Anchor0;\012  pos base [\\uni1202 ] <anchor 577 1383> mark @Anchor0;\012  pos base [\\uni1203 ] <anchor 545 1333> mark @Anchor0;\012  pos base [\\uni1204 ] <anchor 525 1405> mark @Anchor0;\012  pos base [\\uni1205 ] <anchor 565 1303> mark @Anchor0;\012  pos base [\\uni1206 \\uni1313.seb0 ] <anchor 564 1329> mark @Anchor0;\012  pos base [\\uni1207 ] <anchor 917 1350> mark @Anchor0;\012  pos base [\\uni1208 ] <anchor 540 1396> mark @Anchor0;\012  pos base [\\uni1209 ] <anchor 578 1334> mark @Anchor0;\012  pos base [\\uni120A ] <anchor 548 1350> mark @Anchor0;\012  pos base [\\uni120B ] <anchor 524 1350> mark @Anchor0;\012  pos base [\\uni120C ] <anchor 540 1342> mark @Anchor0;\012  pos base [\\uni120D ] <anchor 594 1311> mark @Anchor0;\012  pos base [\\uni120E ] <anchor 555 1327> mark @Anchor0;\012  pos base [\\uni120F ] <anchor 490 1413> mark @Anchor0;\012  pos base [\\uni1210 \\uni1211 ] <anchor 910 1273> mark @Anchor0;\012  pos base [\\uni1212 ] <anchor 905 1285> mark @Anchor0;\012  pos base [\\uni1213 ] <anchor 848 1260> mark @Anchor0;\012  pos base [\\uni1214 ] <anchor 898 1288> mark @Anchor0;\012  pos base [\\uni1215 ] <anchor 930 1359> mark @Anchor0;\012  pos base [\\uni1216 ] <anchor 919 1285> mark @Anchor0;\012  pos base [\\uni1217 ] <anchor 859 1413> mark @Anchor0;\012  pos base [\\uni1218 ] <anchor 1121 1200> mark @Anchor0;\012  pos base [\\uni1219 ] <anchor 1114 1178> mark @Anchor0;\012  pos base [\\uni121A ] <anchor 891 1271> mark @Anchor0;\012  pos base [\\uni121B ] <anchor 877 1274> mark @Anchor0;\012  pos base [\\uni121C ] <anchor 884 1292> mark @Anchor0;\012  pos base [\\uni121D ] <anchor 901 1295> mark @Anchor0;\012  pos base [\\uni121E \\uni121F.cohen2 ] <anchor 923 1302> mark @Anchor0;\012  pos base [\\uni121F ] <anchor 847 1307> mark @Anchor0;\012  pos base [\\uni121F.cohen1 \\uni1359 \\uni1359.ala2 ] <anchor 834 1574> mark @Anchor0;\012  pos base [\\uni1220 ] <anchor 862 1143> mark @Anchor0;\012  pos base [\\uni1221 ] <anchor 855 1179> mark @Anchor0;\012  pos base [\\uni1222 ] <anchor 763 1295> mark @Anchor0;\012  pos base [\\uni1223 \\uni1224 ] <anchor 763 1272> mark @Anchor0;\012  pos base [\\uni1225 ] <anchor 1272 1295> mark @Anchor0;\012  pos base [\\uni1226 ] <anchor 740 1225> mark @Anchor0;\012  pos base [\\uni1227 ] <anchor 767 1342> mark @Anchor0;\012  pos base [\\uni1228 ] <anchor 852 1249> mark @Anchor0;\012  pos base [\\uni1229 \\uni122F.cohen3 ] <anchor 678 1263> mark @Anchor0;\012  pos base [\\uni122A ] <anchor 870 1263> mark @Anchor0;\012  pos base [\\uni122B ] <anchor 855 1267> mark @Anchor0;\012  pos base [\\uni122C ] <anchor 852 1267> mark @Anchor0;\012  pos base [\\uni122D ] <anchor 717 1239> mark @Anchor0;\012  pos base [\\uni122E ] <anchor 781 1271> mark @Anchor0;\012  pos base [\\uni122F \\uni1358.ala1 ] <anchor 873 1373> mark @Anchor0;\012  pos base [\\uni1230 ] <anchor 571 1381> mark @Anchor0;\012  pos base [\\uni1231 ] <anchor 593 1381> mark @Anchor0;\012  pos base [\\uni1232 ] <anchor 600 1384> mark @Anchor0;\012  pos base [\\uni1233 ] <anchor 582 1373> mark @Anchor0;\012  pos base [\\uni1234 ] <anchor 586 1363> mark @Anchor0;\012  pos base [\\uni1235 ] <anchor 444 1391> mark @Anchor0;\012  pos base [\\uni1236 ] <anchor 593 1377> mark @Anchor0;\012  pos base [\\uni1237 ] <anchor 561 1405> mark @Anchor0;\012  pos base [\\uni1238 ] <anchor 625 1480> mark @Anchor0;\012  pos base [\\uni1239 ] <anchor 685 1508> mark @Anchor0;\012  pos base [\\uni123A ] <anchor 678 1505> mark @Anchor0;\012  pos base [\\uni123B ] <anchor 685 1501> mark @Anchor0;\012  pos base [\\uni123C ] <anchor 692 1508> mark @Anchor0;\012  pos base [\\uni123D ] <anchor 582 1501> mark @Anchor0;\012  pos base [\\uni123E ] <anchor 689 1519> mark @Anchor0;\012  pos base [\\uni123F ] <anchor 635 1480> mark @Anchor0;\012  pos base [\\uni1240 ] <anchor 752 1384> mark @Anchor0;\012  pos base [\\uni1241 ] <anchor 752 1381> mark @Anchor0;\012  pos base [\\uni1242 ] <anchor 745 1381> mark @Anchor0;\012  pos base [\\uni1243 ] <anchor 962 1340> mark @Anchor0;\012  pos base [\\uni1244 ] <anchor 759 1360> mark @Anchor0;\012  pos base [\\uni1245 ] <anchor 752 1578> mark @Anchor0;\012  pos base [\\uni1246 ] <anchor 781 1448> mark @Anchor0;\012  pos base [\\uni1247 ] <anchor 805 1425> mark @Anchor0;\012  pos base [\\uni1248 ] <anchor 684 1428> mark @Anchor0;\012  pos base [\\uni124A ] <anchor 757 1448> mark @Anchor0;\012  pos base [\\uni124A.seb3 ] <anchor 752 1408> mark @Anchor0;\012  pos base [\\uni124B ] <anchor 724 1525> mark @Anchor0;\012  pos base [\\uni124C ] <anchor 833 1396> mark @Anchor0;\012  pos base [\\uni124D ] <anchor 700 1436> mark @Anchor0;\012  pos base [\\uni124D.seb2 ] <anchor 800 1587> mark @Anchor0;\012  pos base [\\uni1250 ] <anchor 762 1543> mark @Anchor0;\012  pos base [\\uni1251 ] <anchor 743 1571> mark @Anchor0;\012  pos base [\\uni1252 ] <anchor 781 1539> mark @Anchor0;\012  pos base [\\uni1253 ] <anchor 953 1496> mark @Anchor0;\012  pos base [\\uni1254 ] <anchor 768 1536> mark @Anchor0;\012  pos base [\\uni1255 ] <anchor 633 1612> mark @Anchor0;\012  pos base [\\uni1256 ] <anchor 825 1558> mark @Anchor0;\012  pos base [\\uni1258 ] <anchor 671 1558> mark @Anchor0;\012  pos base [\\uni125A ] <anchor 784 1558> mark @Anchor0;\012  pos base [\\uni125B ] <anchor 743 1618> mark @Anchor0;\012  pos base [\\uni125C ] <anchor 878 1587> mark @Anchor0;\012  pos base [\\uni125D ] <anchor 668 1527> mark @Anchor0;\012  pos base [\\uni1260 ] <anchor 554 1334> mark @Anchor0;\012  pos base [\\uni1261 ] <anchor 564 1331> mark @Anchor0;\012  pos base [\\uni1262 ] <anchor 568 1327> mark @Anchor0;\012  pos base [\\uni1263 ] <anchor 578 1317> mark @Anchor0;\012  pos base [\\uni1264 ] <anchor 554 1317> mark @Anchor0;\012  pos base [\\uni1265 ] <anchor 1001 1320> mark @Anchor0;\012  pos base [\\uni1266 ] <anchor 564 1327> mark @Anchor0;\012  pos base [\\uni1267 ] <anchor 602 1286> mark @Anchor0;\012  pos base [\\uni1268 ] <anchor 624 1449> mark @Anchor0;\012  pos base [\\uni1269 ] <anchor 630 1430> mark @Anchor0;\012  pos base [\\uni126A ] <anchor 621 1427> mark @Anchor0;\012  pos base [\\uni126B ] <anchor 636 1408> mark @Anchor0;\012  pos base [\\uni126C ] <anchor 640 1442> mark @Anchor0;\012  pos base [\\uni126D ] <anchor 1010 1439> mark @Anchor0;\012  pos base [\\uni126E ] <anchor 615 1445> mark @Anchor0;\012  pos base [\\uni126F ] <anchor 628 1473> mark @Anchor0;\012  pos base [\\uni1270 ] <anchor 828 1336> mark @Anchor0;\012  pos base [\\uni1271 ] <anchor 825 1333> mark @Anchor0;\012  pos base [\\uni1272 ] <anchor 821 1329> mark @Anchor0;\012  pos base [\\uni1273 ] <anchor 944 1383> mark @Anchor0;\012  pos base [\\uni1274 ] <anchor 815 1326> mark @Anchor0;\012  pos base [\\uni1275 ] <anchor 787 1524> mark @Anchor0;\012  pos base [\\uni1276 ] <anchor 843 1376> mark @Anchor0;\012  pos base [\\uni1277 ] <anchor 870 1281> mark @Anchor0;\012  pos base [\\uni1278 ] <anchor 781 1452> mark @Anchor0;\012  pos base [\\uni1279 ] <anchor 781 1439> mark @Anchor0;\012  pos base [\\uni127A ] <anchor 793 1433> mark @Anchor0;\012  pos base [\\uni127B ] <anchor 887 1420> mark @Anchor0;\012  pos base [\\uni127C ] <anchor 806 1442> mark @Anchor0;\012  pos base [\\uni127D ] <anchor 596 1643> mark @Anchor0;\012  pos base [\\uni127E ] <anchor 903 1583> mark @Anchor0;\012  pos base [\\uni127F ] <anchor 955 1324> mark @Anchor0;\012  pos base [\\uni1280 ] <anchor 813 1350> mark @Anchor0;\012  pos base [\\uni1281 ] <anchor 834 1356> mark @Anchor0;\012  pos base [\\uni1282 ] <anchor 818 1363> mark @Anchor0;\012  pos base [\\uni1283 ] <anchor 866 1394> mark @Anchor0;\012  pos base [\\uni1284 ] <anchor 817 1347> mark @Anchor0;\012  pos base [\\uni1285 ] <anchor 703 1345> mark @Anchor0;\012  pos base [\\uni1286 ] <anchor 1165 1367> mark @Anchor0;\012  pos base [\\uni1287 ] <anchor 1065 1375> mark @Anchor0;\012  pos base [\\uni1287.alt3 ] <anchor 607 1425> mark @Anchor0;\012  pos base [\\uni1288 ] <anchor 784 1286> mark @Anchor0;\012  pos base [\\uni1288.handwriting ] <anchor 589 1176> mark @Anchor0;\012  pos base [\\uni128A \\uni12CA ] <anchor 718 1295> mark @Anchor0;\012  pos base [\\uni128A.handwriting ] <anchor 593 1132> mark @Anchor0;\012  pos base [\\uni128B ] <anchor 680 1461> mark @Anchor0;\012  pos base [\\uni128B.handwriting ] <anchor 897 1242> mark @Anchor0;\012  pos base [\\uni128C ] <anchor 727 1433> mark @Anchor0;\012  pos base [\\uni128C.handwriting ] <anchor 693 1279> mark @Anchor0;\012  pos base [\\uni128D ] <anchor 696 1298> mark @Anchor0;\012  pos base [\\uni128D.handwriting ] <anchor 552 1132> mark @Anchor0;\012  pos base [\\uni1290 ] <anchor 252 1352> mark @Anchor0;\012  pos base [\\uni1291 ] <anchor 231 1370> mark @Anchor0;\012  pos base [\\uni1292 ] <anchor 298 1327> mark @Anchor0;\012  pos base [\\uni1293 ] <anchor 674 1334> mark @Anchor0;\012  pos base [\\uni1294 ] <anchor 291 1324> mark @Anchor0;\012  pos base [\\uni1295 ] <anchor 490 1352> mark @Anchor0;\012  pos base [\\uni1296 ] <anchor 660 1363> mark @Anchor0;\012  pos base [\\uni1297 ] <anchor 724 1292> mark @Anchor0;\012  pos base [\\uni1297.cohen0 \\uni1297.oldstyle ] <anchor 444 1288> mark @Anchor0;\012  pos base [\\uni1298 \\uni129F.cohen8 ] <anchor 692 1446> mark @Anchor0;\012  pos base [\\uni1298.gumuz ] <anchor 619 1648> mark @Anchor0;\012  pos base [\\uni1299 ] <anchor 664 1420> mark @Anchor0;\012  pos base [\\uni1299.gumuz ] <anchor 644 1648> mark @Anchor0;\012  pos base [\\uni129A ] <anchor 664 1409> mark @Anchor0;\012  pos base [\\uni129A.gumuz ] <anchor 607 1611> mark @Anchor0;\012  pos base [\\uni129B ] <anchor 678 1544> mark @Anchor0;\012  pos base [\\uni129B.gumuz ] <anchor 657 1648> mark @Anchor0;\012  pos base [\\uni129C ] <anchor 689 1416> mark @Anchor0;\012  pos base [\\uni129C.gumuz ] <anchor 619 1611> mark @Anchor0;\012  pos base [\\uni129D ] <anchor 642 1590> mark @Anchor0;\012  pos base [\\uni129D.gumuz ] <anchor 607 1648> mark @Anchor0;\012  pos base [\\uni129E ] <anchor 657 1540> mark @Anchor0;\012  pos base [\\uni129E.gumuz ] <anchor 694 1722> mark @Anchor0;\012  pos base [\\uni129F ] <anchor 668 1494> mark @Anchor0;\012  pos base [\\uni129F.gumuz \\uni129F.gumuz1 ] <anchor 669 1586> mark @Anchor0;\012  pos base [\\uni12A0 ] <anchor 393 1427> mark @Anchor0;\012  pos base [\\uni12A1 ] <anchor 393 1404> mark @Anchor0;\012  pos base [\\uni12A2 ] <anchor 401 1427> mark @Anchor0;\012  pos base [\\uni12A3 ] <anchor 416 1381> mark @Anchor0;\012  pos base [\\uni12A4 ] <anchor 347 1334> mark @Anchor0;\012  pos base [\\uni12A5 ] <anchor 255 1427> mark @Anchor0;\012  pos base [\\uni12A6 ] <anchor 470 1357> mark @Anchor0;\012  pos base [\\uni12A7 ] <anchor 607 1725> mark @Anchor0;\012  pos base [\\uni12A8 ] <anchor 542 1452> mark @Anchor0;\012  pos base [\\uni12A9 ] <anchor 524 1436> mark @Anchor0;\012  pos base [\\uni12AA ] <anchor 536 1449> mark @Anchor0;\012  pos base [\\uni12AB ] <anchor 555 1458> mark @Anchor0;\012  pos base [\\uni12AC ] <anchor 549 1452> mark @Anchor0;\012  pos base [\\uni12AD ] <anchor 536 1445> mark @Anchor0;\012  pos base [\\uni12AE ] <anchor 533 1442> mark @Anchor0;\012  pos base [\\uni12AF ] <anchor 904 1450> mark @Anchor0;\012  pos base [\\uni12B0 ] <anchor 533 1445> mark @Anchor0;\012  pos base [\\uni12B2 ] <anchor 480 1423> mark @Anchor0;\012  pos base [\\uni12B2.seb3 ] <anchor 499 1314> mark @Anchor0;\012  pos base [\\uni12B3 \\uniE2A9 ] <anchor 486 1455> mark @Anchor0;\012  pos base [\\uni12B4 ] <anchor 511 1455> mark @Anchor0;\012  pos base [\\uni12B5 ] <anchor 489 1445> mark @Anchor0;\012  pos base [\\uni12B5.seb2 ] <anchor 508 1430> mark @Anchor0;\012  pos base [\\uni12B8 \\uni12BB ] <anchor 656 1574> mark @Anchor0;\012  pos base [\\uni12B9 \\uni12BE ] <anchor 656 1555> mark @Anchor0;\012  pos base [\\uni12BA \\uni12BD ] <anchor 637 1518> mark @Anchor0;\012  pos base [\\uni12BC ] <anchor 675 1518> mark @Anchor0;\012  pos base [\\uni12C0 ] <anchor 649 1467> mark @Anchor0;\012  pos base [\\uni12C2 ] <anchor 646 1486> mark @Anchor0;\012  pos base [\\uni12C2.seb3 ] <anchor 630 1477> mark @Anchor0;\012  pos base [\\uni12C3 ] <anchor 574 1524> mark @Anchor0;\012  pos base [\\uni12C3.cohen7 \\uni12C3.oldstyle ] <anchor 652 1483> mark @Anchor0;\012  pos base [\\uni12C4 ] <anchor 633 1492> mark @Anchor0;\012  pos base [\\uni12C5 ] <anchor 633 1486> mark @Anchor0;\012  pos base [\\uni12C5.seb2 ] <anchor 646 1474> mark @Anchor0;\012  pos base [\\uni12C8 ] <anchor 828 1223> mark @Anchor0;\012  pos base [\\uni12C9 ] <anchor 825 1213> mark @Anchor0;\012  pos base [\\uni12CB ] <anchor 712 1292> mark @Anchor0;\012  pos base [\\uni12CC ] <anchor 709 1292> mark @Anchor0;\012  pos base [\\uni12CD ] <anchor 812 1226> mark @Anchor0;\012  pos base [\\uni12CE ] <anchor 821 1367> mark @Anchor0;\012  pos base [\\uni12CF ] <anchor 1189 1425> mark @Anchor0;\012  pos base [\\uni12D0 ] <anchor 578 1364> mark @Anchor0;\012  pos base [\\uni12D1 ] <anchor 647 1341> mark @Anchor0;\012  pos base [\\uni12D2 ] <anchor 578 1387> mark @Anchor0;\012  pos base [\\uni12D3 ] <anchor 555 1387> mark @Anchor0;\012  pos base [\\uni12D4 ] <anchor 509 1387> mark @Anchor0;\012  pos base [\\uni12D5 ] <anchor 582 1397> mark @Anchor0;\012  pos base [\\uni12D6 ] <anchor 815 1416> mark @Anchor0;\012  pos base [\\uni12D8 ] <anchor 563 1249> mark @Anchor0;\012  pos base [\\uni12D9 ] <anchor 571 1249> mark @Anchor0;\012  pos base [\\uni12DA ] <anchor 555 1242> mark @Anchor0;\012  pos base [\\uni12DB ] <anchor 509 1226> mark @Anchor0;\012  pos base [\\uni12DC ] <anchor 594 1257> mark @Anchor0;\012  pos base [\\uni12DD ] <anchor 802 1265> mark @Anchor0;\012  pos base [\\uni12DE ] <anchor 563 1265> mark @Anchor0;\012  pos base [\\uni12DF ] <anchor 593 1228> mark @Anchor0;\012  pos base [\\uni12E0 \\uni12E0.cohen6 \\uni12E0.chaine \\uni12E4 \\uni12E4.cohen6 \\uni12E4.chaine \\uni12E5.chaine ] <anchor 964 1211> mark @Anchor0;\012  pos base [\\uni12E1 \\uni12E1.cohen6 \\uni12E1.chaine ] <anchor 949 1211> mark @Anchor0;\012  pos base [\\uni12E2 ] <anchor 996 1227> mark @Anchor0;\012  pos base [\\uni12E3 \\uni12E3.cohen6 \\uni12E3.chaine ] <anchor 941 1219> mark @Anchor0;\012  pos base [\\uni12E5 ] <anchor 595 1713> mark @Anchor0;\012  pos base [\\uni12E5.cohen6 \\uni12E5.oldstyle ] <anchor 1066 1176> mark @Anchor0;\012  pos base [\\uni12E6 \\uni12E6.cohen6 \\uni12E6.chaine ] <anchor 972 1226> mark @Anchor0;\012  pos base [\\uni12E7 ] <anchor 990 1214> mark @Anchor0;\012  pos base [\\uni12E8 ] <anchor 524 1314> mark @Anchor0;\012  pos base [\\uni12E9 ] <anchor 574 1354> mark @Anchor0;\012  pos base [\\uni12EA ] <anchor 571 1345> mark @Anchor0;\012  pos base [\\uni12EB ] <anchor 853 1348> mark @Anchor0;\012  pos base [\\uni12EC ] <anchor 527 1326> mark @Anchor0;\012  pos base [\\uni12ED ] <anchor 765 1270> mark @Anchor0;\012  pos base [\\uni12EE ] <anchor 520 1314> mark @Anchor0;\012  pos base [\\uni12EF ] <anchor 904 1412> mark @Anchor0;\012  pos base [\\uni12F0 ] <anchor 802 1396> mark @Anchor0;\012  pos base [\\uni12F1 \\uni12F2 ] <anchor 810 1396> mark @Anchor0;\012  pos base [\\uni12F3 ] <anchor 779 1396> mark @Anchor0;\012  pos base [\\uni12F4 ] <anchor 787 1388> mark @Anchor0;\012  pos base [\\uni12F5 ] <anchor 810 1357> mark @Anchor0;\012  pos base [\\uni12F6 ] <anchor 779 1342> mark @Anchor0;\012  pos base [\\uni12F7 ] <anchor 796 1314> mark @Anchor0;\012  pos base [\\uni12F8 ] <anchor 818 1612> mark @Anchor0;\012  pos base [\\uni12F8.oromo ] <anchor 781 1329> mark @Anchor0;\012  pos base [\\uni12F9 \\uni12FB ] <anchor 825 1593> mark @Anchor0;\012  pos base [\\uni12F9.oromo ] <anchor 806 1376> mark @Anchor0;\012  pos base [\\uni12FA \\uni12FD ] <anchor 825 1596> mark @Anchor0;\012  pos base [\\uni12FA.oromo ] <anchor 790 1361> mark @Anchor0;\012  pos base [\\uni12FB.oromo ] <anchor 800 1339> mark @Anchor0;\012  pos base [\\uni12FC ] <anchor 800 1596> mark @Anchor0;\012  pos base [\\uni12FC.oromo ] <anchor 778 1345> mark @Anchor0;\012  pos base [\\uni12FD.oromo ] <anchor 818 1348> mark @Anchor0;\012  pos base [\\uni12FE ] <anchor 705 1599> mark @Anchor0;\012  pos base [\\uni12FE.oromo ] <anchor 756 1345> mark @Anchor0;\012  pos base [\\uni12FF ] <anchor 816 1597> mark @Anchor0;\012  pos base [\\uni1300 ] <anchor 787 1465> mark @Anchor0;\012  pos base [\\uni1301 ] <anchor 686 1504> mark @Anchor0;\012  pos base [\\uni1302 ] <anchor 710 1481> mark @Anchor0;\012  pos base [\\uni1303 ] <anchor 694 1488> mark @Anchor0;\012  pos base [\\uni1304 ] <anchor 663 1473> mark @Anchor0;\012  pos base [\\uni1305 ] <anchor 779 1458> mark @Anchor0;\012  pos base [\\uni1306 ] <anchor 872 1488> mark @Anchor0;\012  pos base [\\uni1307 ] <anchor 790 1637> mark @Anchor0;\012  pos base [\\uni1308 ] <anchor 542 1226> mark @Anchor0;\012  pos base [\\uni1309 ] <anchor 552 1126> mark @Anchor0;\012  pos base [\\uni130A ] <anchor 558 1129> mark @Anchor0;\012  pos base [\\uni130B ] <anchor 922 1170> mark @Anchor0;\012  pos base [\\uni130C ] <anchor 558 1238> mark @Anchor0;\012  pos base [\\uni130D ] <anchor 630 1207> mark @Anchor0;\012  pos base [\\uni130E ] <anchor 571 1358> mark @Anchor0;\012  pos base [\\uni130F ] <anchor 669 1450> mark @Anchor0;\012  pos base [\\uni1310 ] <anchor 530 1298> mark @Anchor0;\012  pos base [\\uni1312 ] <anchor 571 1279> mark @Anchor0;\012  pos base [\\uni1312.seb3 ] <anchor 536 1279> mark @Anchor0;\012  pos base [\\uni1313 ] <anchor 552 1298> mark @Anchor0;\012  pos base [\\uni1313.alonestokes \\uni1313.oldstyle ] <anchor 825 1242> mark @Anchor0;\012  pos base [\\uni1314 ] <anchor 759 1392> mark @Anchor0;\012  pos base [\\uni1315 ] <anchor 546 1286> mark @Anchor0;\012  pos base [\\uni1315.seb2 ] <anchor 589 1220> mark @Anchor0;\012  pos base [\\uni1318 ] <anchor 619 1524> mark @Anchor0;\012  pos base [\\uni1318.alt1 ] <anchor 665 1496> mark @Anchor0;\012  pos base [\\uni1319 ] <anchor 644 1450> mark @Anchor0;\012  pos base [\\uni1319.alt1 ] <anchor 680 1439> mark @Anchor0;\012  pos base [\\uni131A ] <anchor 669 1437> mark @Anchor0;\012  pos base [\\uni131A.alt1 ] <anchor 640 1439> mark @Anchor0;\012  pos base [\\uni131B ] <anchor 719 1474> mark @Anchor0;\012  pos base [\\uni131B.alt1 ] <anchor 734 1405> mark @Anchor0;\012  pos base [\\uni131C ] <anchor 632 1524> mark @Anchor0;\012  pos base [\\uni131C.alt1 ] <anchor 630 1499> mark @Anchor0;\012  pos base [\\uni131D ] <anchor 681 1549> mark @Anchor0;\012  pos base [\\uni131D.alt1 ] <anchor 674 1496> mark @Anchor0;\012  pos base [\\uni131E ] <anchor 632 1437> mark @Anchor0;\012  pos base [\\uni131E.alt1 ] <anchor 624 1392> mark @Anchor0;\012  pos base [\\uni131F ] <anchor 620 1424> mark @Anchor0;\012  pos base [\\uni131F.type ] <anchor 605 1627> mark @Anchor0;\012  pos base [\\uni1320 \\uni1321 ] <anchor 825 1049> mark @Anchor0;\012  pos base [\\uni1322 ] <anchor 818 1041> mark @Anchor0;\012  pos base [\\uni1323 ] <anchor 902 1311> mark @Anchor0;\012  pos base [\\uni1324 ] <anchor 833 1087> mark @Anchor0;\012  pos base [\\uni1325 ] <anchor 733 1165> mark @Anchor0;\012  pos base [\\uni1326 ] <anchor 818 1180> mark @Anchor0;\012  pos base [\\uni1327 ] <anchor 972 1085> mark @Anchor0;\012  pos base [\\uni1328 ] <anchor 995 1126> mark @Anchor0;\012  pos base [\\uni1329 \\uni132A ] <anchor 995 1103> mark @Anchor0;\012  pos base [\\uni132B ] <anchor 1018 1257> mark @Anchor0;\012  pos base [\\uni132C ] <anchor 979 1141> mark @Anchor0;\012  pos base [\\uni132D ] <anchor 1055 1276> mark @Anchor0;\012  pos base [\\uni132E ] <anchor 1072 1249> mark @Anchor0;\012  pos base [\\uni132F ] <anchor 1000 1176> mark @Anchor0;\012  pos base [\\uni1330 ] <anchor 542 1483> mark @Anchor0;\012  pos base [\\uni1331 ] <anchor 580 1477> mark @Anchor0;\012  pos base [\\uni1332 ] <anchor 549 1483> mark @Anchor0;\012  pos base [\\uni1333 ] <anchor 542 1474> mark @Anchor0;\012  pos base [\\uni1334 ] <anchor 586 1480> mark @Anchor0;\012  pos base [\\uni1335 ] <anchor 546 1489> mark @Anchor0;\012  pos base [\\uni1335.praetorius ] <anchor 559 1683> mark @Anchor0;\012  pos base [\\uni1336 ] <anchor 549 1486> mark @Anchor0;\012  pos base [\\uni1337 ] <anchor 448 1483> mark @Anchor0;\012  pos base [\\uni1338 ] <anchor 571 1217> mark @Anchor0;\012  pos base [\\uni1339 ] <anchor 564 1207> mark @Anchor0;\012  pos base [\\uni133A ] <anchor 536 1248> mark @Anchor0;\012  pos base [\\uni133B ] <anchor 492 1238> mark @Anchor0;\012  pos base [\\uni133C ] <anchor 524 1235> mark @Anchor0;\012  pos base [\\uni133D ] <anchor 574 1204> mark @Anchor0;\012  pos base [\\uni133E ] <anchor 502 1238> mark @Anchor0;\012  pos base [\\uni133F ] <anchor 602 1320> mark @Anchor0;\012  pos base [\\uni133F.alt4 \\uni133F.oldstyle \\uni2D88 ] <anchor 731 1400> mark @Anchor0;\012  pos base [\\uni1340 ] <anchor 543 1300> mark @Anchor0;\012  pos base [\\uni1341 ] <anchor 611 1300> mark @Anchor0;\012  pos base [\\uni1342 ] <anchor 485 1368> mark @Anchor0;\012  pos base [\\uni1343 ] <anchor 495 1368> mark @Anchor0;\012  pos base [\\uni1344 ] <anchor 504 1416> mark @Anchor0;\012  pos base [\\uni1345 ] <anchor 572 1368> mark @Anchor0;\012  pos base [\\uni1346 ] <anchor 805 1407> mark @Anchor0;\012  pos base [\\uni1347 ] <anchor 929 1425> mark @Anchor0;\012  pos base [\\uni1348 ] <anchor 793 1270> mark @Anchor0;\012  pos base [\\uni1349 ] <anchor 687 1492> mark @Anchor0;\012  pos base [\\uni134A ] <anchor 809 1279> mark @Anchor0;\012  pos base [\\uni134B ] <anchor 696 1467> mark @Anchor0;\012  pos base [\\uni134C ] <anchor 787 1257> mark @Anchor0;\012  pos base [\\uni134D ] <anchor 740 1242> mark @Anchor0;\012  pos base [\\uni134E ] <anchor 793 1238> mark @Anchor0;\012  pos base [\\uni134F ] <anchor 796 1511> mark @Anchor0;\012  pos base [\\uni134F.cohen4 ] <anchor 780 1242> mark @Anchor0;\012  pos base [\\uni134F.cohen5 \\uni134F.oldstyle ] <anchor 705 1587> mark @Anchor0;\012  pos base [\\uni1350 ] <anchor 721 1173> mark @Anchor0;\012  pos base [\\uni1351 ] <anchor 734 1163> mark @Anchor0;\012  pos base [\\uni1352 ] <anchor 746 1163> mark @Anchor0;\012  pos base [\\uni1353 ] <anchor 1101 1163> mark @Anchor0;\012  pos base [\\uni1354 ] <anchor 727 1170> mark @Anchor0;\012  pos base [\\uni1355 ] <anchor 712 1166> mark @Anchor0;\012  pos base [\\uni1356 ] <anchor 1079 1226> mark @Anchor0;\012  pos base [\\uni1357 ] <anchor 800 1223> mark @Anchor0;\012  pos base [\\uni1358 ] <anchor 759 1489> mark @Anchor0;\012  pos base [\\uni135A ] <anchor 712 1458> mark @Anchor0;\012  pos base [\\uni1380 ] <anchor 1088 1126> mark @Anchor0;\012  pos base [\\uni1381 ] <anchor 884 1264> mark @Anchor0;\012  pos base [\\uni1381.seb5 \\uni1381.seb3 ] <anchor 884 1254> mark @Anchor0;\012  pos base [\\uni1381.sebLes1 \\uni1381.sebLes ] <anchor 1053 1116> mark @Anchor0;\012  pos base [\\uni1382 ] <anchor 906 1370> mark @Anchor0;\012  pos base [\\uni1383 ] <anchor 909 1286> mark @Anchor0;\012  pos base [\\uni1383.seb4 ] <anchor 912 1292> mark @Anchor0;\012  pos base [\\uni1383.sebLes4 \\uni1383.sebLes ] <anchor 1092 1210> mark @Anchor0;\012  pos base [\\uni1384 ] <anchor 580 1314> mark @Anchor0;\012  pos base [\\uni1385 ] <anchor 596 1307> mark @Anchor0;\012  pos base [\\uni1385.seb3 ] <anchor 602 1323> mark @Anchor0;\012  pos base [\\uni1386 ] <anchor 589 1317> mark @Anchor0;\012  pos base [\\uni1387 ] <anchor 988 1307> mark @Anchor0;\012  pos base [\\uni1387.sebLes2 \\uni1387.sebLes ] <anchor 593 1311> mark @Anchor0;\012  pos base [\\uni1388 ] <anchor 781 1254> mark @Anchor0;\012  pos base [\\uni1389 ] <anchor 774 1257> mark @Anchor0;\012  pos base [\\uni138A ] <anchor 702 1483> mark @Anchor0;\012  pos base [\\uni138A.trad ] <anchor 862 1511> mark @Anchor0;\012  pos base [\\uni138B ] <anchor 765 1245> mark @Anchor0;\012  pos base [\\uni138B.sebLes3 \\uni138B.sebLes ] <anchor 793 1264> mark @Anchor0;\012  pos base [\\uni138C ] <anchor 715 1176> mark @Anchor0;\012  pos base [\\uni138D ] <anchor 721 1182> mark @Anchor0;\012  pos base [\\uni138D.seb3 ] <anchor 712 1182> mark @Anchor0;\012  pos base [\\uni138E ] <anchor 809 1342> mark @Anchor0;\012  pos base [\\uni138F ] <anchor 737 1163> mark @Anchor0;\012  pos base [\\uni138F.sebLes5 \\uni138F.sebLes ] <anchor 727 1176> mark @Anchor0;\012  pos base [\\uni2D80 ] <anchor 942 1425> mark @Anchor0;\012  pos base [\\uni2D81 ] <anchor 979 1425> mark @Anchor0;\012  pos base [\\uni2D82 ] <anchor 1177 1338> mark @Anchor0;\012  pos base [\\uni2D83 ] <anchor 991 1462> mark @Anchor0;\012  pos base [\\uni2D84 ] <anchor 1053 1561> mark @Anchor0;\012  pos base [\\uni2D85 ] <anchor 972 1327> mark @Anchor0;\012  pos base [\\uni2D86 ] <anchor 855 1462> mark @Anchor0;\012  pos base [\\uni2D87 ] <anchor 855 1611> mark @Anchor0;\012  pos base [\\uni2D89 ] <anchor 694 1536> mark @Anchor0;\012  pos base [\\uni2D8A ] <anchor 805 1363> mark @Anchor0;\012  pos base [\\uni2D8B ] <anchor 929 1301> mark @Anchor0;\012  pos base [\\uni2D8C ] <anchor 929 1363> mark @Anchor0;\012  pos base [\\uni2D8D ] <anchor 917 1685> mark @Anchor0;\012  pos base [\\uni2D8E ] <anchor 917 1524> mark @Anchor0;\012  pos base [\\uni2D8F ] <anchor 1276 1227> mark @Anchor0;\012  pos base [\\uni2D90 ] <anchor 1499 1388> mark @Anchor0;\012  pos base [\\uni2D91 ] <anchor 904 1561> mark @Anchor0;\012  pos base [\\uni2D92 ] <anchor 1512 1313> mark @Anchor0;\012  pos base [\\uni2D93 \\uni2D93.blin ] <anchor 643 1373> mark @Anchor0;\012  pos base [\\uni2D94 \\uni2D94.blin ] <anchor 630 1380> mark @Anchor0;\012  pos base [\\uni2D95 \\uni2D95.blin ] <anchor 712 1398> mark @Anchor0;\012  pos base [\\uni2D96 \\uni2D96.blin ] <anchor 618 1392> mark @Anchor0;\012  pos base [\\uni2DA0 ] <anchor 1035 1508> mark @Anchor0;\012  pos base [\\uni2DA1 ] <anchor 991 1511> mark @Anchor0;\012  pos base [\\uni2DA2 ] <anchor 1032 1499> mark @Anchor0;\012  pos base [\\uni2DA3 ] <anchor 1025 1533> mark @Anchor0;\012  pos base [\\uni2DA4 ] <anchor 1003 1521> mark @Anchor0;\012  pos base [\\uni2DA5 ] <anchor 727 1452> mark @Anchor0;\012  pos base [\\uni2DA6 ] <anchor 1047 1521> mark @Anchor0;\012  pos base [\\uni2DA8 ] <anchor 890 1423> mark @Anchor0;\012  pos base [\\uni2DA9 ] <anchor 850 1433> mark @Anchor0;\012  pos base [\\uni2DAA ] <anchor 856 1423> mark @Anchor0;\012  pos base [\\uni2DAB ] <anchor 900 1408> mark @Anchor0;\012  pos base [\\uni2DAC ] <anchor 847 1433> mark @Anchor0;\012  pos base [\\uni2DAD ] <anchor 643 1571> mark @Anchor0;\012  pos base [\\uni2DAE ] <anchor 925 1565> mark @Anchor0;\012  pos base [\\uni2DB0 ] <anchor 997 1204> mark @Anchor0;\012  pos base [\\uni2DB1 ] <anchor 988 1210> mark @Anchor0;\012  pos base [\\uni2DB2 ] <anchor 972 1182> mark @Anchor0;\012  pos base [\\uni2DB3 \\uni2DB4 ] <anchor 969 1173> mark @Anchor0;\012  pos base [\\uni2DB5 ] <anchor 586 1649> mark @Anchor0;\012  pos base [\\uni2DB6 ] <anchor 953 1210> mark @Anchor0;\012  pos base [\\uni2DB8 ] <anchor 1370 1088> mark @Anchor0;\012  pos base [\\uni2DB9 ] <anchor 1392 1094> mark @Anchor0;\012  pos base [\\uni2DBA ] <anchor 1376 1091> mark @Anchor0;\012  pos base [\\uni2DBB ] <anchor 1496 1229> mark @Anchor0;\012  pos base [\\uni2DBC ] <anchor 1380 1116> mark @Anchor0;\012  pos base [\\uni2DBD ] <anchor 1499 1264> mark @Anchor0;\012  pos base [\\uni2DBE ] <anchor 1480 1245> mark @Anchor0;\012  pos base [\\uni2DC0 ] <anchor 796 1731> mark @Anchor0;\012  pos base [\\uni2DC1 ] <anchor 790 1687> mark @Anchor0;\012  pos base [\\uni2DC2 ] <anchor 796 1721> mark @Anchor0;\012  pos base [\\uni2DC3 ] <anchor 1000 1646> mark @Anchor0;\012  pos base [\\uni2DC4 ] <anchor 809 1674> mark @Anchor0;\012  pos base [\\uni2DC5 ] <anchor 517 1740> mark @Anchor0;\012  pos base [\\uni2DC6 ] <anchor 856 1674> mark @Anchor0;\012  pos base [\\uni2DC8 ] <anchor 564 1458> mark @Anchor0;\012  pos base [\\uni2DC9 ] <anchor 480 1489> mark @Anchor0;\012  pos base [\\uni2DCA ] <anchor 483 1474> mark @Anchor0;\012  pos base [\\uni2DCB ] <anchor 508 1477> mark @Anchor0;\012  pos base [\\uni2DCC ] <anchor 477 1471> mark @Anchor0;\012  pos base [\\uni2DCD ] <anchor 536 1405> mark @Anchor0;\012  pos base [\\uni2DCE ] <anchor 508 1411> mark @Anchor0;\012  pos base [\\uni2DD0 ] <anchor 596 1712> mark @Anchor0;\012  pos base [\\uni2DD1 ] <anchor 599 1693> mark @Anchor0;\012  pos base [\\uni2DD2 ] <anchor 611 1674> mark @Anchor0;\012  pos base [\\uni2DD3 ] <anchor 605 1696> mark @Anchor0;\012  pos base [\\uni2DD4 ] <anchor 608 1693> mark @Anchor0;\012  pos base [\\uni2DD5 ] <anchor 640 1681> mark @Anchor0;\012  pos base [\\uni2DD6 ] <anchor 608 1696> mark @Anchor0;\012  pos base [\\uni2DD8 ] <anchor 514 1467> mark @Anchor0;\012  pos base [\\uni2DD9 ] <anchor 577 1502> mark @Anchor0;\012  pos base [\\uni2DDA ] <anchor 524 1405> mark @Anchor0;\012  pos base [\\uni2DDB ] <anchor 834 1511> mark @Anchor0;\012  pos base [\\uni2DDC ] <anchor 542 1521> mark @Anchor0;\012  pos base [\\uni2DDD ] <anchor 825 1552> mark @Anchor0;\012  pos base [\\uni2DDE ] <anchor 533 1671> mark @Anchor0;\012  pos base [\\uniAB01 ] <anchor 593 1373> mark @Anchor0;\012  pos base [\\uniAB02 ] <anchor 599 1380> mark @Anchor0;\012  pos base [\\uniAB03 ] <anchor 586 1370> mark @Anchor0;\012  pos base [\\uniAB04 ] <anchor 586 1361> mark @Anchor0;\012  pos base [\\uniAB05 ] <anchor 477 1386> mark @Anchor0;\012  pos base [\\uniAB06 ] <anchor 593 1367> mark @Anchor0;\012  pos base [\\uniAB09 ] <anchor 825 1574> mark @Anchor0;\012  pos base [\\uniAB0A ] <anchor 821 1596> mark @Anchor0;\012  pos base [\\uniAB0B ] <anchor 831 1602> mark @Anchor0;\012  pos base [\\uniAB0C ] <anchor 809 1602> mark @Anchor0;\012  pos base [\\uniAB0D ] <anchor 828 1587> mark @Anchor0;\012  pos base [\\uniAB0E ] <anchor 699 1571> mark @Anchor0;\012  pos base [\\uniAB11 ] <anchor 593 1590> mark @Anchor0;\012  pos base [\\uniAB12 ] <anchor 599 1574> mark @Anchor0;\012  pos base [\\uniAB13 ] <anchor 618 1539> mark @Anchor0;\012  pos base [\\uniAB14 ] <anchor 599 1568> mark @Anchor0;\012  pos base [\\uniAB15 ] <anchor 602 1571> mark @Anchor0;\012  pos base [\\uniAB16 ] <anchor 605 1596> mark @Anchor0;\012  pos base [\\uniAB20 ] <anchor 954 1512> mark @Anchor0;\012  pos base [\\uniAB21 ] <anchor 966 1487> mark @Anchor0;\012  pos base [\\uniAB22 \\uniAB24 ] <anchor 979 1462> mark @Anchor0;\012  pos base [\\uniAB23 ] <anchor 1004 1635> mark @Anchor0;\012  pos base [\\uniAB25 ] <anchor 954 1685> mark @Anchor0;\012  pos base [\\uniAB26 ] <anchor 1053 1685> mark @Anchor0;\012  pos base [\\uniAB28 ] <anchor 632 1499> mark @Anchor0;\012  pos base [\\uniAB29 \\uniAB2E ] <anchor 644 1549> mark @Anchor0;\012  pos base [\\uniAB2A ] <anchor 619 1573> mark @Anchor0;\012  pos base [\\uniAB2B ] <anchor 632 1561> mark @Anchor0;\012  pos base [\\uniAB2C ] <anchor 582 1573> mark @Anchor0;\012  pos base [\\uniAB2D ] <anchor 619 1512> mark @Anchor0;\012  pos base [\\uni2000 ] <anchor 492 1500> mark @Anchor0;\012  pos base [\\uni2001 ] <anchor 985 1500> mark @Anchor0;\012  pos base [\\uni2002 ] <anchor 512 1500> mark @Anchor0;\012  pos base [\\uni2003 ] <anchor 1024 1500> mark @Anchor0;\012  pos base [\\uni2004 ] <anchor 328 1500> mark @Anchor0;\012  pos base [\\uni2005 \\uni202F ] <anchor 246 1500> mark @Anchor0;\012  pos base [\\uni2006 ] <anchor 164 1500> mark @Anchor0;\012  pos base [\\fi ] <anchor 978 1480> mark @Anchor0;\012  pos base [\\fl ] <anchor 974 1580> mark @Anchor0;\012  pos base [\\uniE068 ] <anchor 605 1740> mark @Anchor0;\012  pos base [\\uniE069 ] <anchor 624 1709> mark @Anchor0;\012  pos base [\\uniE06A ] <anchor 636 1709> mark @Anchor0;\012  pos base [\\uniE06B ] <anchor 640 1706> mark @Anchor0;\012  pos base [\\uniE06C ] <anchor 580 1709> mark @Anchor0;\012  pos base [\\uniE06D ] <anchor 589 1787> mark @Anchor0;\012  pos base [\\uniE06E ] <anchor 624 1721> mark @Anchor0;\012  pos base [\\uniE070 ] <anchor 423 1361> mark @Anchor0;\012  pos base [\\uniE071 ] <anchor 828 1289> mark @Anchor0;\012  pos base [\\uniE072 ] <anchor 549 1320> mark @Anchor0;\012  pos base [\\uniE217 ] <anchor 1363 1363> mark @Anchor0;\012  pos base [\\uniE227 ] <anchor 1239 1239> mark @Anchor0;\012  pos base [\\uniE230 ] <anchor 605 1376> mark @Anchor0;\012  pos base [\\uniE24F ] <anchor 571 1552> mark @Anchor0;\012  pos base [\\uniE257 ] <anchor 793 1635> mark @Anchor0;\012  pos base [\\uniE25F ] <anchor 837 1580> mark @Anchor0;\012  pos base [\\uniE26F ] <anchor 917 1462> mark @Anchor0;\012  pos base [\\uniE2A8 ] <anchor 524 1452> mark @Anchor0;\012  pos base [\\uniE2AA ] <anchor 502 1439> mark @Anchor0;\012  pos base [\\uniE2AB ] <anchor 480 1439> mark @Anchor0;\012  pos base [\\uniE2AC ] <anchor 505 1442> mark @Anchor0;\012  pos base [\\uniE2AD ] <anchor 486 1433> mark @Anchor0;\012  pos base [\\uniE2AE ] <anchor 477 1452> mark @Anchor0;\012  pos base [\\uniE2B7 ] <anchor 589 1364> mark @Anchor0;\012  pos base [\\uniE2BF ] <anchor 681 1561> mark @Anchor0;\012  pos base [\\uniE2D7 ] <anchor 966 1363> mark @Anchor0;\012  pos base [\\uniE2D8 ] <anchor 589 1571> mark @Anchor0;\012  pos base [\\uniE2E7 ] <anchor 954 1214> mark @Anchor0;\012  pos base [\\uniE2F8 ] <anchor 831 1580> mark @Anchor0;\012  pos base [\\uniE33F ] <anchor 892 1326> mark @Anchor0;\012  pos base [\\uniE34F ] <anchor 1189 1289> mark @Anchor0;\012  pos base [\\uniE406 ] <anchor 903 1398> mark @Anchor0;\012  pos base [\\uniE491 ] <anchor 793 1709> mark @Anchor0;\012  pos base [\\uniE493 ] <anchor 630 1612> mark @Anchor0;\012  pos base [\\uniE49A ] <anchor 925 1295> mark @Anchor0;\012} markMarkPositioninginEthiopiclookup1;\012";
+code = "# GPOS 
+
+
+lookup kernHorizontalKerninginEthiopiclookup0 {
+  lookupflag 0;
+} kernHorizontalKerninginEthiopiclookup0;
+
+lookup markMarkPositioninginEthiopiclookup1 {
+  lookupflag 0;
+  markClass [\\gravecomb \\acutecomb \\uni0302 \\tildecomb \\uni0304 \\uni0307 \\uni0308 \\uni030B \\uni030C \\uni030F \\uniE50F \\uniE51F ] <anchor -830 1450> @Anchor0;
+  markClass [\\uni034F ] <anchor 0 0> @Anchor0;
+  markClass [\\uni135D ] <anchor -547 1451> @Anchor0;
+  markClass [\\uni135E ] <anchor -547 1464> @Anchor0;
+  markClass [\\uni135F ] <anchor -546 1450> @Anchor0;
+  pos base [\\dotlessi ] <anchor 310 1100> mark @Anchor0;
+  pos base [\\Zcaron ] <anchor 610 1900> mark @Anchor0;
+  pos base [\\zcaron ] <anchor 483 1500> mark @Anchor0;
+  pos base [\\caron ] <anchor 335 1500> mark @Anchor0;
+  pos base [\\uni02C9 ] <anchor 343 1470> mark @Anchor0;
+  pos base [\\uni02D0 ] <anchor 261 1100> mark @Anchor0;
+  pos base [\\breve ] <anchor 305 1500> mark @Anchor0;
+  pos base [\\pi ] <anchor 608 1100> mark @Anchor0;
+  pos base [\\uni1200 ] <anchor 587 1241> mark @Anchor0;
+  pos base [\\uni1201 ] <anchor 610 1236> mark @Anchor0;
+  pos base [\\uni1202 ] <anchor 577 1383> mark @Anchor0;
+  pos base [\\uni1203 ] <anchor 545 1333> mark @Anchor0;
+  pos base [\\uni1204 ] <anchor 525 1405> mark @Anchor0;
+  pos base [\\uni1205 ] <anchor 565 1303> mark @Anchor0;
+  pos base [\\uni1206 \\uni1313.seb0 ] <anchor 564 1329> mark @Anchor0;
+  pos base [\\uni1207 ] <anchor 917 1350> mark @Anchor0;
+  pos base [\\uni1208 ] <anchor 540 1396> mark @Anchor0;
+  pos base [\\uni1209 ] <anchor 578 1334> mark @Anchor0;
+  pos base [\\uni120A ] <anchor 548 1350> mark @Anchor0;
+  pos base [\\uni120B ] <anchor 524 1350> mark @Anchor0;
+  pos base [\\uni120C ] <anchor 540 1342> mark @Anchor0;
+  pos base [\\uni120D ] <anchor 594 1311> mark @Anchor0;
+  pos base [\\uni120E ] <anchor 555 1327> mark @Anchor0;
+  pos base [\\uni120F ] <anchor 490 1413> mark @Anchor0;
+  pos base [\\uni1210 \\uni1211 ] <anchor 910 1273> mark @Anchor0;
+  pos base [\\uni1212 ] <anchor 905 1285> mark @Anchor0;
+  pos base [\\uni1213 ] <anchor 848 1260> mark @Anchor0;
+  pos base [\\uni1214 ] <anchor 898 1288> mark @Anchor0;
+  pos base [\\uni1215 ] <anchor 930 1359> mark @Anchor0;
+  pos base [\\uni1216 ] <anchor 919 1285> mark @Anchor0;
+  pos base [\\uni1217 ] <anchor 859 1413> mark @Anchor0;
+  pos base [\\uni1218 ] <anchor 1121 1200> mark @Anchor0;
+  pos base [\\uni1219 ] <anchor 1114 1178> mark @Anchor0;
+  pos base [\\uni121A ] <anchor 891 1271> mark @Anchor0;
+  pos base [\\uni121B ] <anchor 877 1274> mark @Anchor0;
+  pos base [\\uni121C ] <anchor 884 1292> mark @Anchor0;
+  pos base [\\uni121D ] <anchor 901 1295> mark @Anchor0;
+  pos base [\\uni121E \\uni121F.cohen2 ] <anchor 923 1302> mark @Anchor0;
+  pos base [\\uni121F ] <anchor 847 1307> mark @Anchor0;
+  pos base [\\uni121F.cohen1 \\uni1359 \\uni1359.ala2 ] <anchor 834 1574> mark @Anchor0;
+  pos base [\\uni1220 ] <anchor 862 1143> mark @Anchor0;
+  pos base [\\uni1221 ] <anchor 855 1179> mark @Anchor0;
+  pos base [\\uni1222 ] <anchor 763 1295> mark @Anchor0;
+  pos base [\\uni1223 \\uni1224 ] <anchor 763 1272> mark @Anchor0;
+  pos base [\\uni1225 ] <anchor 1272 1295> mark @Anchor0;
+  pos base [\\uni1226 ] <anchor 740 1225> mark @Anchor0;
+  pos base [\\uni1227 ] <anchor 767 1342> mark @Anchor0;
+  pos base [\\uni1228 ] <anchor 852 1249> mark @Anchor0;
+  pos base [\\uni1229 \\uni122F.cohen3 ] <anchor 678 1263> mark @Anchor0;
+  pos base [\\uni122A ] <anchor 870 1263> mark @Anchor0;
+  pos base [\\uni122B ] <anchor 855 1267> mark @Anchor0;
+  pos base [\\uni122C ] <anchor 852 1267> mark @Anchor0;
+  pos base [\\uni122D ] <anchor 717 1239> mark @Anchor0;
+  pos base [\\uni122E ] <anchor 781 1271> mark @Anchor0;
+  pos base [\\uni122F \\uni1358.ala1 ] <anchor 873 1373> mark @Anchor0;
+  pos base [\\uni1230 ] <anchor 571 1381> mark @Anchor0;
+  pos base [\\uni1231 ] <anchor 593 1381> mark @Anchor0;
+  pos base [\\uni1232 ] <anchor 600 1384> mark @Anchor0;
+  pos base [\\uni1233 ] <anchor 582 1373> mark @Anchor0;
+  pos base [\\uni1234 ] <anchor 586 1363> mark @Anchor0;
+  pos base [\\uni1235 ] <anchor 444 1391> mark @Anchor0;
+  pos base [\\uni1236 ] <anchor 593 1377> mark @Anchor0;
+  pos base [\\uni1237 ] <anchor 561 1405> mark @Anchor0;
+  pos base [\\uni1238 ] <anchor 625 1480> mark @Anchor0;
+  pos base [\\uni1239 ] <anchor 685 1508> mark @Anchor0;
+  pos base [\\uni123A ] <anchor 678 1505> mark @Anchor0;
+  pos base [\\uni123B ] <anchor 685 1501> mark @Anchor0;
+  pos base [\\uni123C ] <anchor 692 1508> mark @Anchor0;
+  pos base [\\uni123D ] <anchor 582 1501> mark @Anchor0;
+  pos base [\\uni123E ] <anchor 689 1519> mark @Anchor0;
+  pos base [\\uni123F ] <anchor 635 1480> mark @Anchor0;
+  pos base [\\uni1240 ] <anchor 752 1384> mark @Anchor0;
+  pos base [\\uni1241 ] <anchor 752 1381> mark @Anchor0;
+  pos base [\\uni1242 ] <anchor 745 1381> mark @Anchor0;
+  pos base [\\uni1243 ] <anchor 962 1340> mark @Anchor0;
+  pos base [\\uni1244 ] <anchor 759 1360> mark @Anchor0;
+  pos base [\\uni1245 ] <anchor 752 1578> mark @Anchor0;
+  pos base [\\uni1246 ] <anchor 781 1448> mark @Anchor0;
+  pos base [\\uni1247 ] <anchor 805 1425> mark @Anchor0;
+  pos base [\\uni1248 ] <anchor 684 1428> mark @Anchor0;
+  pos base [\\uni124A ] <anchor 757 1448> mark @Anchor0;
+  pos base [\\uni124A.seb3 ] <anchor 752 1408> mark @Anchor0;
+  pos base [\\uni124B ] <anchor 724 1525> mark @Anchor0;
+  pos base [\\uni124C ] <anchor 833 1396> mark @Anchor0;
+  pos base [\\uni124D ] <anchor 700 1436> mark @Anchor0;
+  pos base [\\uni124D.seb2 ] <anchor 800 1587> mark @Anchor0;
+  pos base [\\uni1250 ] <anchor 762 1543> mark @Anchor0;
+  pos base [\\uni1251 ] <anchor 743 1571> mark @Anchor0;
+  pos base [\\uni1252 ] <anchor 781 1539> mark @Anchor0;
+  pos base [\\uni1253 ] <anchor 953 1496> mark @Anchor0;
+  pos base [\\uni1254 ] <anchor 768 1536> mark @Anchor0;
+  pos base [\\uni1255 ] <anchor 633 1612> mark @Anchor0;
+  pos base [\\uni1256 ] <anchor 825 1558> mark @Anchor0;
+  pos base [\\uni1258 ] <anchor 671 1558> mark @Anchor0;
+  pos base [\\uni125A ] <anchor 784 1558> mark @Anchor0;
+  pos base [\\uni125B ] <anchor 743 1618> mark @Anchor0;
+  pos base [\\uni125C ] <anchor 878 1587> mark @Anchor0;
+  pos base [\\uni125D ] <anchor 668 1527> mark @Anchor0;
+  pos base [\\uni1260 ] <anchor 554 1334> mark @Anchor0;
+  pos base [\\uni1261 ] <anchor 564 1331> mark @Anchor0;
+  pos base [\\uni1262 ] <anchor 568 1327> mark @Anchor0;
+  pos base [\\uni1263 ] <anchor 578 1317> mark @Anchor0;
+  pos base [\\uni1264 ] <anchor 554 1317> mark @Anchor0;
+  pos base [\\uni1265 ] <anchor 1001 1320> mark @Anchor0;
+  pos base [\\uni1266 ] <anchor 564 1327> mark @Anchor0;
+  pos base [\\uni1267 ] <anchor 602 1286> mark @Anchor0;
+  pos base [\\uni1268 ] <anchor 624 1449> mark @Anchor0;
+  pos base [\\uni1269 ] <anchor 630 1430> mark @Anchor0;
+  pos base [\\uni126A ] <anchor 621 1427> mark @Anchor0;
+  pos base [\\uni126B ] <anchor 636 1408> mark @Anchor0;
+  pos base [\\uni126C ] <anchor 640 1442> mark @Anchor0;
+  pos base [\\uni126D ] <anchor 1010 1439> mark @Anchor0;
+  pos base [\\uni126E ] <anchor 615 1445> mark @Anchor0;
+  pos base [\\uni126F ] <anchor 628 1473> mark @Anchor0;
+  pos base [\\uni1270 ] <anchor 828 1336> mark @Anchor0;
+  pos base [\\uni1271 ] <anchor 825 1333> mark @Anchor0;
+  pos base [\\uni1272 ] <anchor 821 1329> mark @Anchor0;
+  pos base [\\uni1273 ] <anchor 944 1383> mark @Anchor0;
+  pos base [\\uni1274 ] <anchor 815 1326> mark @Anchor0;
+  pos base [\\uni1275 ] <anchor 787 1524> mark @Anchor0;
+  pos base [\\uni1276 ] <anchor 843 1376> mark @Anchor0;
+  pos base [\\uni1277 ] <anchor 870 1281> mark @Anchor0;
+  pos base [\\uni1278 ] <anchor 781 1452> mark @Anchor0;
+  pos base [\\uni1279 ] <anchor 781 1439> mark @Anchor0;
+  pos base [\\uni127A ] <anchor 793 1433> mark @Anchor0;
+  pos base [\\uni127B ] <anchor 887 1420> mark @Anchor0;
+  pos base [\\uni127C ] <anchor 806 1442> mark @Anchor0;
+  pos base [\\uni127D ] <anchor 596 1643> mark @Anchor0;
+  pos base [\\uni127E ] <anchor 903 1583> mark @Anchor0;
+  pos base [\\uni127F ] <anchor 955 1324> mark @Anchor0;
+  pos base [\\uni1280 ] <anchor 813 1350> mark @Anchor0;
+  pos base [\\uni1281 ] <anchor 834 1356> mark @Anchor0;
+  pos base [\\uni1282 ] <anchor 818 1363> mark @Anchor0;
+  pos base [\\uni1283 ] <anchor 866 1394> mark @Anchor0;
+  pos base [\\uni1284 ] <anchor 817 1347> mark @Anchor0;
+  pos base [\\uni1285 ] <anchor 703 1345> mark @Anchor0;
+  pos base [\\uni1286 ] <anchor 1165 1367> mark @Anchor0;
+  pos base [\\uni1287 ] <anchor 1065 1375> mark @Anchor0;
+  pos base [\\uni1287.alt3 ] <anchor 607 1425> mark @Anchor0;
+  pos base [\\uni1288 ] <anchor 784 1286> mark @Anchor0;
+  pos base [\\uni1288.handwriting ] <anchor 589 1176> mark @Anchor0;
+  pos base [\\uni128A \\uni12CA ] <anchor 718 1295> mark @Anchor0;
+  pos base [\\uni128A.handwriting ] <anchor 593 1132> mark @Anchor0;
+  pos base [\\uni128B ] <anchor 680 1461> mark @Anchor0;
+  pos base [\\uni128B.handwriting ] <anchor 897 1242> mark @Anchor0;
+  pos base [\\uni128C ] <anchor 727 1433> mark @Anchor0;
+  pos base [\\uni128C.handwriting ] <anchor 693 1279> mark @Anchor0;
+  pos base [\\uni128D ] <anchor 696 1298> mark @Anchor0;
+  pos base [\\uni128D.handwriting ] <anchor 552 1132> mark @Anchor0;
+  pos base [\\uni1290 ] <anchor 252 1352> mark @Anchor0;
+  pos base [\\uni1291 ] <anchor 231 1370> mark @Anchor0;
+  pos base [\\uni1292 ] <anchor 298 1327> mark @Anchor0;
+  pos base [\\uni1293 ] <anchor 674 1334> mark @Anchor0;
+  pos base [\\uni1294 ] <anchor 291 1324> mark @Anchor0;
+  pos base [\\uni1295 ] <anchor 490 1352> mark @Anchor0;
+  pos base [\\uni1296 ] <anchor 660 1363> mark @Anchor0;
+  pos base [\\uni1297 ] <anchor 724 1292> mark @Anchor0;
+  pos base [\\uni1297.cohen0 \\uni1297.oldstyle ] <anchor 444 1288> mark @Anchor0;
+  pos base [\\uni1298 \\uni129F.cohen8 ] <anchor 692 1446> mark @Anchor0;
+  pos base [\\uni1298.gumuz ] <anchor 619 1648> mark @Anchor0;
+  pos base [\\uni1299 ] <anchor 664 1420> mark @Anchor0;
+  pos base [\\uni1299.gumuz ] <anchor 644 1648> mark @Anchor0;
+  pos base [\\uni129A ] <anchor 664 1409> mark @Anchor0;
+  pos base [\\uni129A.gumuz ] <anchor 607 1611> mark @Anchor0;
+  pos base [\\uni129B ] <anchor 678 1544> mark @Anchor0;
+  pos base [\\uni129B.gumuz ] <anchor 657 1648> mark @Anchor0;
+  pos base [\\uni129C ] <anchor 689 1416> mark @Anchor0;
+  pos base [\\uni129C.gumuz ] <anchor 619 1611> mark @Anchor0;
+  pos base [\\uni129D ] <anchor 642 1590> mark @Anchor0;
+  pos base [\\uni129D.gumuz ] <anchor 607 1648> mark @Anchor0;
+  pos base [\\uni129E ] <anchor 657 1540> mark @Anchor0;
+  pos base [\\uni129E.gumuz ] <anchor 694 1722> mark @Anchor0;
+  pos base [\\uni129F ] <anchor 668 1494> mark @Anchor0;
+  pos base [\\uni129F.gumuz \\uni129F.gumuz1 ] <anchor 669 1586> mark @Anchor0;
+  pos base [\\uni12A0 ] <anchor 393 1427> mark @Anchor0;
+  pos base [\\uni12A1 ] <anchor 393 1404> mark @Anchor0;
+  pos base [\\uni12A2 ] <anchor 401 1427> mark @Anchor0;
+  pos base [\\uni12A3 ] <anchor 416 1381> mark @Anchor0;
+  pos base [\\uni12A4 ] <anchor 347 1334> mark @Anchor0;
+  pos base [\\uni12A5 ] <anchor 255 1427> mark @Anchor0;
+  pos base [\\uni12A6 ] <anchor 470 1357> mark @Anchor0;
+  pos base [\\uni12A7 ] <anchor 607 1725> mark @Anchor0;
+  pos base [\\uni12A8 ] <anchor 542 1452> mark @Anchor0;
+  pos base [\\uni12A9 ] <anchor 524 1436> mark @Anchor0;
+  pos base [\\uni12AA ] <anchor 536 1449> mark @Anchor0;
+  pos base [\\uni12AB ] <anchor 555 1458> mark @Anchor0;
+  pos base [\\uni12AC ] <anchor 549 1452> mark @Anchor0;
+  pos base [\\uni12AD ] <anchor 536 1445> mark @Anchor0;
+  pos base [\\uni12AE ] <anchor 533 1442> mark @Anchor0;
+  pos base [\\uni12AF ] <anchor 904 1450> mark @Anchor0;
+  pos base [\\uni12B0 ] <anchor 533 1445> mark @Anchor0;
+  pos base [\\uni12B2 ] <anchor 480 1423> mark @Anchor0;
+  pos base [\\uni12B2.seb3 ] <anchor 499 1314> mark @Anchor0;
+  pos base [\\uni12B3 \\uniE2A9 ] <anchor 486 1455> mark @Anchor0;
+  pos base [\\uni12B4 ] <anchor 511 1455> mark @Anchor0;
+  pos base [\\uni12B5 ] <anchor 489 1445> mark @Anchor0;
+  pos base [\\uni12B5.seb2 ] <anchor 508 1430> mark @Anchor0;
+  pos base [\\uni12B8 \\uni12BB ] <anchor 656 1574> mark @Anchor0;
+  pos base [\\uni12B9 \\uni12BE ] <anchor 656 1555> mark @Anchor0;
+  pos base [\\uni12BA \\uni12BD ] <anchor 637 1518> mark @Anchor0;
+  pos base [\\uni12BC ] <anchor 675 1518> mark @Anchor0;
+  pos base [\\uni12C0 ] <anchor 649 1467> mark @Anchor0;
+  pos base [\\uni12C2 ] <anchor 646 1486> mark @Anchor0;
+  pos base [\\uni12C2.seb3 ] <anchor 630 1477> mark @Anchor0;
+  pos base [\\uni12C3 ] <anchor 574 1524> mark @Anchor0;
+  pos base [\\uni12C3.cohen7 \\uni12C3.oldstyle ] <anchor 652 1483> mark @Anchor0;
+  pos base [\\uni12C4 ] <anchor 633 1492> mark @Anchor0;
+  pos base [\\uni12C5 ] <anchor 633 1486> mark @Anchor0;
+  pos base [\\uni12C5.seb2 ] <anchor 646 1474> mark @Anchor0;
+  pos base [\\uni12C8 ] <anchor 828 1223> mark @Anchor0;
+  pos base [\\uni12C9 ] <anchor 825 1213> mark @Anchor0;
+  pos base [\\uni12CB ] <anchor 712 1292> mark @Anchor0;
+  pos base [\\uni12CC ] <anchor 709 1292> mark @Anchor0;
+  pos base [\\uni12CD ] <anchor 812 1226> mark @Anchor0;
+  pos base [\\uni12CE ] <anchor 821 1367> mark @Anchor0;
+  pos base [\\uni12CF ] <anchor 1189 1425> mark @Anchor0;
+  pos base [\\uni12D0 ] <anchor 578 1364> mark @Anchor0;
+  pos base [\\uni12D1 ] <anchor 647 1341> mark @Anchor0;
+  pos base [\\uni12D2 ] <anchor 578 1387> mark @Anchor0;
+  pos base [\\uni12D3 ] <anchor 555 1387> mark @Anchor0;
+  pos base [\\uni12D4 ] <anchor 509 1387> mark @Anchor0;
+  pos base [\\uni12D5 ] <anchor 582 1397> mark @Anchor0;
+  pos base [\\uni12D6 ] <anchor 815 1416> mark @Anchor0;
+  pos base [\\uni12D8 ] <anchor 563 1249> mark @Anchor0;
+  pos base [\\uni12D9 ] <anchor 571 1249> mark @Anchor0;
+  pos base [\\uni12DA ] <anchor 555 1242> mark @Anchor0;
+  pos base [\\uni12DB ] <anchor 509 1226> mark @Anchor0;
+  pos base [\\uni12DC ] <anchor 594 1257> mark @Anchor0;
+  pos base [\\uni12DD ] <anchor 802 1265> mark @Anchor0;
+  pos base [\\uni12DE ] <anchor 563 1265> mark @Anchor0;
+  pos base [\\uni12DF ] <anchor 593 1228> mark @Anchor0;
+  pos base [\\uni12E0 \\uni12E0.cohen6 \\uni12E0.chaine \\uni12E4 \\uni12E4.cohen6 \\uni12E4.chaine \\uni12E5.chaine ] <anchor 964 1211> mark @Anchor0;
+  pos base [\\uni12E1 \\uni12E1.cohen6 \\uni12E1.chaine ] <anchor 949 1211> mark @Anchor0;
+  pos base [\\uni12E2 ] <anchor 996 1227> mark @Anchor0;
+  pos base [\\uni12E3 \\uni12E3.cohen6 \\uni12E3.chaine ] <anchor 941 1219> mark @Anchor0;
+  pos base [\\uni12E5 ] <anchor 595 1713> mark @Anchor0;
+  pos base [\\uni12E5.cohen6 \\uni12E5.oldstyle ] <anchor 1066 1176> mark @Anchor0;
+  pos base [\\uni12E6 \\uni12E6.cohen6 \\uni12E6.chaine ] <anchor 972 1226> mark @Anchor0;
+  pos base [\\uni12E7 ] <anchor 990 1214> mark @Anchor0;
+  pos base [\\uni12E8 ] <anchor 524 1314> mark @Anchor0;
+  pos base [\\uni12E9 ] <anchor 574 1354> mark @Anchor0;
+  pos base [\\uni12EA ] <anchor 571 1345> mark @Anchor0;
+  pos base [\\uni12EB ] <anchor 853 1348> mark @Anchor0;
+  pos base [\\uni12EC ] <anchor 527 1326> mark @Anchor0;
+  pos base [\\uni12ED ] <anchor 765 1270> mark @Anchor0;
+  pos base [\\uni12EE ] <anchor 520 1314> mark @Anchor0;
+  pos base [\\uni12EF ] <anchor 904 1412> mark @Anchor0;
+  pos base [\\uni12F0 ] <anchor 802 1396> mark @Anchor0;
+  pos base [\\uni12F1 \\uni12F2 ] <anchor 810 1396> mark @Anchor0;
+  pos base [\\uni12F3 ] <anchor 779 1396> mark @Anchor0;
+  pos base [\\uni12F4 ] <anchor 787 1388> mark @Anchor0;
+  pos base [\\uni12F5 ] <anchor 810 1357> mark @Anchor0;
+  pos base [\\uni12F6 ] <anchor 779 1342> mark @Anchor0;
+  pos base [\\uni12F7 ] <anchor 796 1314> mark @Anchor0;
+  pos base [\\uni12F8 ] <anchor 818 1612> mark @Anchor0;
+  pos base [\\uni12F8.oromo ] <anchor 781 1329> mark @Anchor0;
+  pos base [\\uni12F9 \\uni12FB ] <anchor 825 1593> mark @Anchor0;
+  pos base [\\uni12F9.oromo ] <anchor 806 1376> mark @Anchor0;
+  pos base [\\uni12FA \\uni12FD ] <anchor 825 1596> mark @Anchor0;
+  pos base [\\uni12FA.oromo ] <anchor 790 1361> mark @Anchor0;
+  pos base [\\uni12FB.oromo ] <anchor 800 1339> mark @Anchor0;
+  pos base [\\uni12FC ] <anchor 800 1596> mark @Anchor0;
+  pos base [\\uni12FC.oromo ] <anchor 778 1345> mark @Anchor0;
+  pos base [\\uni12FD.oromo ] <anchor 818 1348> mark @Anchor0;
+  pos base [\\uni12FE ] <anchor 705 1599> mark @Anchor0;
+  pos base [\\uni12FE.oromo ] <anchor 756 1345> mark @Anchor0;
+  pos base [\\uni12FF ] <anchor 816 1597> mark @Anchor0;
+  pos base [\\uni1300 ] <anchor 787 1465> mark @Anchor0;
+  pos base [\\uni1301 ] <anchor 686 1504> mark @Anchor0;
+  pos base [\\uni1302 ] <anchor 710 1481> mark @Anchor0;
+  pos base [\\uni1303 ] <anchor 694 1488> mark @Anchor0;
+  pos base [\\uni1304 ] <anchor 663 1473> mark @Anchor0;
+  pos base [\\uni1305 ] <anchor 779 1458> mark @Anchor0;
+  pos base [\\uni1306 ] <anchor 872 1488> mark @Anchor0;
+  pos base [\\uni1307 ] <anchor 790 1637> mark @Anchor0;
+  pos base [\\uni1308 ] <anchor 542 1226> mark @Anchor0;
+  pos base [\\uni1309 ] <anchor 552 1126> mark @Anchor0;
+  pos base [\\uni130A ] <anchor 558 1129> mark @Anchor0;
+  pos base [\\uni130B ] <anchor 922 1170> mark @Anchor0;
+  pos base [\\uni130C ] <anchor 558 1238> mark @Anchor0;
+  pos base [\\uni130D ] <anchor 630 1207> mark @Anchor0;
+  pos base [\\uni130E ] <anchor 571 1358> mark @Anchor0;
+  pos base [\\uni130F ] <anchor 669 1450> mark @Anchor0;
+  pos base [\\uni1310 ] <anchor 530 1298> mark @Anchor0;
+  pos base [\\uni1312 ] <anchor 571 1279> mark @Anchor0;
+  pos base [\\uni1312.seb3 ] <anchor 536 1279> mark @Anchor0;
+  pos base [\\uni1313 ] <anchor 552 1298> mark @Anchor0;
+  pos base [\\uni1313.alonestokes \\uni1313.oldstyle ] <anchor 825 1242> mark @Anchor0;
+  pos base [\\uni1314 ] <anchor 759 1392> mark @Anchor0;
+  pos base [\\uni1315 ] <anchor 546 1286> mark @Anchor0;
+  pos base [\\uni1315.seb2 ] <anchor 589 1220> mark @Anchor0;
+  pos base [\\uni1318 ] <anchor 619 1524> mark @Anchor0;
+  pos base [\\uni1318.alt1 ] <anchor 665 1496> mark @Anchor0;
+  pos base [\\uni1319 ] <anchor 644 1450> mark @Anchor0;
+  pos base [\\uni1319.alt1 ] <anchor 680 1439> mark @Anchor0;
+  pos base [\\uni131A ] <anchor 669 1437> mark @Anchor0;
+  pos base [\\uni131A.alt1 ] <anchor 640 1439> mark @Anchor0;
+  pos base [\\uni131B ] <anchor 719 1474> mark @Anchor0;
+  pos base [\\uni131B.alt1 ] <anchor 734 1405> mark @Anchor0;
+  pos base [\\uni131C ] <anchor 632 1524> mark @Anchor0;
+  pos base [\\uni131C.alt1 ] <anchor 630 1499> mark @Anchor0;
+  pos base [\\uni131D ] <anchor 681 1549> mark @Anchor0;
+  pos base [\\uni131D.alt1 ] <anchor 674 1496> mark @Anchor0;
+  pos base [\\uni131E ] <anchor 632 1437> mark @Anchor0;
+  pos base [\\uni131E.alt1 ] <anchor 624 1392> mark @Anchor0;
+  pos base [\\uni131F ] <anchor 620 1424> mark @Anchor0;
+  pos base [\\uni131F.type ] <anchor 605 1627> mark @Anchor0;
+  pos base [\\uni1320 \\uni1321 ] <anchor 825 1049> mark @Anchor0;
+  pos base [\\uni1322 ] <anchor 818 1041> mark @Anchor0;
+  pos base [\\uni1323 ] <anchor 902 1311> mark @Anchor0;
+  pos base [\\uni1324 ] <anchor 833 1087> mark @Anchor0;
+  pos base [\\uni1325 ] <anchor 733 1165> mark @Anchor0;
+  pos base [\\uni1326 ] <anchor 818 1180> mark @Anchor0;
+  pos base [\\uni1327 ] <anchor 972 1085> mark @Anchor0;
+  pos base [\\uni1328 ] <anchor 995 1126> mark @Anchor0;
+  pos base [\\uni1329 \\uni132A ] <anchor 995 1103> mark @Anchor0;
+  pos base [\\uni132B ] <anchor 1018 1257> mark @Anchor0;
+  pos base [\\uni132C ] <anchor 979 1141> mark @Anchor0;
+  pos base [\\uni132D ] <anchor 1055 1276> mark @Anchor0;
+  pos base [\\uni132E ] <anchor 1072 1249> mark @Anchor0;
+  pos base [\\uni132F ] <anchor 1000 1176> mark @Anchor0;
+  pos base [\\uni1330 ] <anchor 542 1483> mark @Anchor0;
+  pos base [\\uni1331 ] <anchor 580 1477> mark @Anchor0;
+  pos base [\\uni1332 ] <anchor 549 1483> mark @Anchor0;
+  pos base [\\uni1333 ] <anchor 542 1474> mark @Anchor0;
+  pos base [\\uni1334 ] <anchor 586 1480> mark @Anchor0;
+  pos base [\\uni1335 ] <anchor 546 1489> mark @Anchor0;
+  pos base [\\uni1335.praetorius ] <anchor 559 1683> mark @Anchor0;
+  pos base [\\uni1336 ] <anchor 549 1486> mark @Anchor0;
+  pos base [\\uni1337 ] <anchor 448 1483> mark @Anchor0;
+  pos base [\\uni1338 ] <anchor 571 1217> mark @Anchor0;
+  pos base [\\uni1339 ] <anchor 564 1207> mark @Anchor0;
+  pos base [\\uni133A ] <anchor 536 1248> mark @Anchor0;
+  pos base [\\uni133B ] <anchor 492 1238> mark @Anchor0;
+  pos base [\\uni133C ] <anchor 524 1235> mark @Anchor0;
+  pos base [\\uni133D ] <anchor 574 1204> mark @Anchor0;
+  pos base [\\uni133E ] <anchor 502 1238> mark @Anchor0;
+  pos base [\\uni133F ] <anchor 602 1320> mark @Anchor0;
+  pos base [\\uni133F.alt4 \\uni133F.oldstyle \\uni2D88 ] <anchor 731 1400> mark @Anchor0;
+  pos base [\\uni1340 ] <anchor 543 1300> mark @Anchor0;
+  pos base [\\uni1341 ] <anchor 611 1300> mark @Anchor0;
+  pos base [\\uni1342 ] <anchor 485 1368> mark @Anchor0;
+  pos base [\\uni1343 ] <anchor 495 1368> mark @Anchor0;
+  pos base [\\uni1344 ] <anchor 504 1416> mark @Anchor0;
+  pos base [\\uni1345 ] <anchor 572 1368> mark @Anchor0;
+  pos base [\\uni1346 ] <anchor 805 1407> mark @Anchor0;
+  pos base [\\uni1347 ] <anchor 929 1425> mark @Anchor0;
+  pos base [\\uni1348 ] <anchor 793 1270> mark @Anchor0;
+  pos base [\\uni1349 ] <anchor 687 1492> mark @Anchor0;
+  pos base [\\uni134A ] <anchor 809 1279> mark @Anchor0;
+  pos base [\\uni134B ] <anchor 696 1467> mark @Anchor0;
+  pos base [\\uni134C ] <anchor 787 1257> mark @Anchor0;
+  pos base [\\uni134D ] <anchor 740 1242> mark @Anchor0;
+  pos base [\\uni134E ] <anchor 793 1238> mark @Anchor0;
+  pos base [\\uni134F ] <anchor 796 1511> mark @Anchor0;
+  pos base [\\uni134F.cohen4 ] <anchor 780 1242> mark @Anchor0;
+  pos base [\\uni134F.cohen5 \\uni134F.oldstyle ] <anchor 705 1587> mark @Anchor0;
+  pos base [\\uni1350 ] <anchor 721 1173> mark @Anchor0;
+  pos base [\\uni1351 ] <anchor 734 1163> mark @Anchor0;
+  pos base [\\uni1352 ] <anchor 746 1163> mark @Anchor0;
+  pos base [\\uni1353 ] <anchor 1101 1163> mark @Anchor0;
+  pos base [\\uni1354 ] <anchor 727 1170> mark @Anchor0;
+  pos base [\\uni1355 ] <anchor 712 1166> mark @Anchor0;
+  pos base [\\uni1356 ] <anchor 1079 1226> mark @Anchor0;
+  pos base [\\uni1357 ] <anchor 800 1223> mark @Anchor0;
+  pos base [\\uni1358 ] <anchor 759 1489> mark @Anchor0;
+  pos base [\\uni135A ] <anchor 712 1458> mark @Anchor0;
+  pos base [\\uni1380 ] <anchor 1088 1126> mark @Anchor0;
+  pos base [\\uni1381 ] <anchor 884 1264> mark @Anchor0;
+  pos base [\\uni1381.seb5 \\uni1381.seb3 ] <anchor 884 1254> mark @Anchor0;
+  pos base [\\uni1381.sebLes1 \\uni1381.sebLes ] <anchor 1053 1116> mark @Anchor0;
+  pos base [\\uni1382 ] <anchor 906 1370> mark @Anchor0;
+  pos base [\\uni1383 ] <anchor 909 1286> mark @Anchor0;
+  pos base [\\uni1383.seb4 ] <anchor 912 1292> mark @Anchor0;
+  pos base [\\uni1383.sebLes4 \\uni1383.sebLes ] <anchor 1092 1210> mark @Anchor0;
+  pos base [\\uni1384 ] <anchor 580 1314> mark @Anchor0;
+  pos base [\\uni1385 ] <anchor 596 1307> mark @Anchor0;
+  pos base [\\uni1385.seb3 ] <anchor 602 1323> mark @Anchor0;
+  pos base [\\uni1386 ] <anchor 589 1317> mark @Anchor0;
+  pos base [\\uni1387 ] <anchor 988 1307> mark @Anchor0;
+  pos base [\\uni1387.sebLes2 \\uni1387.sebLes ] <anchor 593 1311> mark @Anchor0;
+  pos base [\\uni1388 ] <anchor 781 1254> mark @Anchor0;
+  pos base [\\uni1389 ] <anchor 774 1257> mark @Anchor0;
+  pos base [\\uni138A ] <anchor 702 1483> mark @Anchor0;
+  pos base [\\uni138A.trad ] <anchor 862 1511> mark @Anchor0;
+  pos base [\\uni138B ] <anchor 765 1245> mark @Anchor0;
+  pos base [\\uni138B.sebLes3 \\uni138B.sebLes ] <anchor 793 1264> mark @Anchor0;
+  pos base [\\uni138C ] <anchor 715 1176> mark @Anchor0;
+  pos base [\\uni138D ] <anchor 721 1182> mark @Anchor0;
+  pos base [\\uni138D.seb3 ] <anchor 712 1182> mark @Anchor0;
+  pos base [\\uni138E ] <anchor 809 1342> mark @Anchor0;
+  pos base [\\uni138F ] <anchor 737 1163> mark @Anchor0;
+  pos base [\\uni138F.sebLes5 \\uni138F.sebLes ] <anchor 727 1176> mark @Anchor0;
+  pos base [\\uni2D80 ] <anchor 942 1425> mark @Anchor0;
+  pos base [\\uni2D81 ] <anchor 979 1425> mark @Anchor0;
+  pos base [\\uni2D82 ] <anchor 1177 1338> mark @Anchor0;
+  pos base [\\uni2D83 ] <anchor 991 1462> mark @Anchor0;
+  pos base [\\uni2D84 ] <anchor 1053 1561> mark @Anchor0;
+  pos base [\\uni2D85 ] <anchor 972 1327> mark @Anchor0;
+  pos base [\\uni2D86 ] <anchor 855 1462> mark @Anchor0;
+  pos base [\\uni2D87 ] <anchor 855 1611> mark @Anchor0;
+  pos base [\\uni2D89 ] <anchor 694 1536> mark @Anchor0;
+  pos base [\\uni2D8A ] <anchor 805 1363> mark @Anchor0;
+  pos base [\\uni2D8B ] <anchor 929 1301> mark @Anchor0;
+  pos base [\\uni2D8C ] <anchor 929 1363> mark @Anchor0;
+  pos base [\\uni2D8D ] <anchor 917 1685> mark @Anchor0;
+  pos base [\\uni2D8E ] <anchor 917 1524> mark @Anchor0;
+  pos base [\\uni2D8F ] <anchor 1276 1227> mark @Anchor0;
+  pos base [\\uni2D90 ] <anchor 1499 1388> mark @Anchor0;
+  pos base [\\uni2D91 ] <anchor 904 1561> mark @Anchor0;
+  pos base [\\uni2D92 ] <anchor 1512 1313> mark @Anchor0;
+  pos base [\\uni2D93 \\uni2D93.blin ] <anchor 643 1373> mark @Anchor0;
+  pos base [\\uni2D94 \\uni2D94.blin ] <anchor 630 1380> mark @Anchor0;
+  pos base [\\uni2D95 \\uni2D95.blin ] <anchor 712 1398> mark @Anchor0;
+  pos base [\\uni2D96 \\uni2D96.blin ] <anchor 618 1392> mark @Anchor0;
+  pos base [\\uni2DA0 ] <anchor 1035 1508> mark @Anchor0;
+  pos base [\\uni2DA1 ] <anchor 991 1511> mark @Anchor0;
+  pos base [\\uni2DA2 ] <anchor 1032 1499> mark @Anchor0;
+  pos base [\\uni2DA3 ] <anchor 1025 1533> mark @Anchor0;
+  pos base [\\uni2DA4 ] <anchor 1003 1521> mark @Anchor0;
+  pos base [\\uni2DA5 ] <anchor 727 1452> mark @Anchor0;
+  pos base [\\uni2DA6 ] <anchor 1047 1521> mark @Anchor0;
+  pos base [\\uni2DA8 ] <anchor 890 1423> mark @Anchor0;
+  pos base [\\uni2DA9 ] <anchor 850 1433> mark @Anchor0;
+  pos base [\\uni2DAA ] <anchor 856 1423> mark @Anchor0;
+  pos base [\\uni2DAB ] <anchor 900 1408> mark @Anchor0;
+  pos base [\\uni2DAC ] <anchor 847 1433> mark @Anchor0;
+  pos base [\\uni2DAD ] <anchor 643 1571> mark @Anchor0;
+  pos base [\\uni2DAE ] <anchor 925 1565> mark @Anchor0;
+  pos base [\\uni2DB0 ] <anchor 997 1204> mark @Anchor0;
+  pos base [\\uni2DB1 ] <anchor 988 1210> mark @Anchor0;
+  pos base [\\uni2DB2 ] <anchor 972 1182> mark @Anchor0;
+  pos base [\\uni2DB3 \\uni2DB4 ] <anchor 969 1173> mark @Anchor0;
+  pos base [\\uni2DB5 ] <anchor 586 1649> mark @Anchor0;
+  pos base [\\uni2DB6 ] <anchor 953 1210> mark @Anchor0;
+  pos base [\\uni2DB8 ] <anchor 1370 1088> mark @Anchor0;
+  pos base [\\uni2DB9 ] <anchor 1392 1094> mark @Anchor0;
+  pos base [\\uni2DBA ] <anchor 1376 1091> mark @Anchor0;
+  pos base [\\uni2DBB ] <anchor 1496 1229> mark @Anchor0;
+  pos base [\\uni2DBC ] <anchor 1380 1116> mark @Anchor0;
+  pos base [\\uni2DBD ] <anchor 1499 1264> mark @Anchor0;
+  pos base [\\uni2DBE ] <anchor 1480 1245> mark @Anchor0;
+  pos base [\\uni2DC0 ] <anchor 796 1731> mark @Anchor0;
+  pos base [\\uni2DC1 ] <anchor 790 1687> mark @Anchor0;
+  pos base [\\uni2DC2 ] <anchor 796 1721> mark @Anchor0;
+  pos base [\\uni2DC3 ] <anchor 1000 1646> mark @Anchor0;
+  pos base [\\uni2DC4 ] <anchor 809 1674> mark @Anchor0;
+  pos base [\\uni2DC5 ] <anchor 517 1740> mark @Anchor0;
+  pos base [\\uni2DC6 ] <anchor 856 1674> mark @Anchor0;
+  pos base [\\uni2DC8 ] <anchor 564 1458> mark @Anchor0;
+  pos base [\\uni2DC9 ] <anchor 480 1489> mark @Anchor0;
+  pos base [\\uni2DCA ] <anchor 483 1474> mark @Anchor0;
+  pos base [\\uni2DCB ] <anchor 508 1477> mark @Anchor0;
+  pos base [\\uni2DCC ] <anchor 477 1471> mark @Anchor0;
+  pos base [\\uni2DCD ] <anchor 536 1405> mark @Anchor0;
+  pos base [\\uni2DCE ] <anchor 508 1411> mark @Anchor0;
+  pos base [\\uni2DD0 ] <anchor 596 1712> mark @Anchor0;
+  pos base [\\uni2DD1 ] <anchor 599 1693> mark @Anchor0;
+  pos base [\\uni2DD2 ] <anchor 611 1674> mark @Anchor0;
+  pos base [\\uni2DD3 ] <anchor 605 1696> mark @Anchor0;
+  pos base [\\uni2DD4 ] <anchor 608 1693> mark @Anchor0;
+  pos base [\\uni2DD5 ] <anchor 640 1681> mark @Anchor0;
+  pos base [\\uni2DD6 ] <anchor 608 1696> mark @Anchor0;
+  pos base [\\uni2DD8 ] <anchor 514 1467> mark @Anchor0;
+  pos base [\\uni2DD9 ] <anchor 577 1502> mark @Anchor0;
+  pos base [\\uni2DDA ] <anchor 524 1405> mark @Anchor0;
+  pos base [\\uni2DDB ] <anchor 834 1511> mark @Anchor0;
+  pos base [\\uni2DDC ] <anchor 542 1521> mark @Anchor0;
+  pos base [\\uni2DDD ] <anchor 825 1552> mark @Anchor0;
+  pos base [\\uni2DDE ] <anchor 533 1671> mark @Anchor0;
+  pos base [\\uniAB01 ] <anchor 593 1373> mark @Anchor0;
+  pos base [\\uniAB02 ] <anchor 599 1380> mark @Anchor0;
+  pos base [\\uniAB03 ] <anchor 586 1370> mark @Anchor0;
+  pos base [\\uniAB04 ] <anchor 586 1361> mark @Anchor0;
+  pos base [\\uniAB05 ] <anchor 477 1386> mark @Anchor0;
+  pos base [\\uniAB06 ] <anchor 593 1367> mark @Anchor0;
+  pos base [\\uniAB09 ] <anchor 825 1574> mark @Anchor0;
+  pos base [\\uniAB0A ] <anchor 821 1596> mark @Anchor0;
+  pos base [\\uniAB0B ] <anchor 831 1602> mark @Anchor0;
+  pos base [\\uniAB0C ] <anchor 809 1602> mark @Anchor0;
+  pos base [\\uniAB0D ] <anchor 828 1587> mark @Anchor0;
+  pos base [\\uniAB0E ] <anchor 699 1571> mark @Anchor0;
+  pos base [\\uniAB11 ] <anchor 593 1590> mark @Anchor0;
+  pos base [\\uniAB12 ] <anchor 599 1574> mark @Anchor0;
+  pos base [\\uniAB13 ] <anchor 618 1539> mark @Anchor0;
+  pos base [\\uniAB14 ] <anchor 599 1568> mark @Anchor0;
+  pos base [\\uniAB15 ] <anchor 602 1571> mark @Anchor0;
+  pos base [\\uniAB16 ] <anchor 605 1596> mark @Anchor0;
+  pos base [\\uniAB20 ] <anchor 954 1512> mark @Anchor0;
+  pos base [\\uniAB21 ] <anchor 966 1487> mark @Anchor0;
+  pos base [\\uniAB22 \\uniAB24 ] <anchor 979 1462> mark @Anchor0;
+  pos base [\\uniAB23 ] <anchor 1004 1635> mark @Anchor0;
+  pos base [\\uniAB25 ] <anchor 954 1685> mark @Anchor0;
+  pos base [\\uniAB26 ] <anchor 1053 1685> mark @Anchor0;
+  pos base [\\uniAB28 ] <anchor 632 1499> mark @Anchor0;
+  pos base [\\uniAB29 \\uniAB2E ] <anchor 644 1549> mark @Anchor0;
+  pos base [\\uniAB2A ] <anchor 619 1573> mark @Anchor0;
+  pos base [\\uniAB2B ] <anchor 632 1561> mark @Anchor0;
+  pos base [\\uniAB2C ] <anchor 582 1573> mark @Anchor0;
+  pos base [\\uniAB2D ] <anchor 619 1512> mark @Anchor0;
+  pos base [\\uni2000 ] <anchor 492 1500> mark @Anchor0;
+  pos base [\\uni2001 ] <anchor 985 1500> mark @Anchor0;
+  pos base [\\uni2002 ] <anchor 512 1500> mark @Anchor0;
+  pos base [\\uni2003 ] <anchor 1024 1500> mark @Anchor0;
+  pos base [\\uni2004 ] <anchor 328 1500> mark @Anchor0;
+  pos base [\\uni2005 \\uni202F ] <anchor 246 1500> mark @Anchor0;
+  pos base [\\uni2006 ] <anchor 164 1500> mark @Anchor0;
+  pos base [\\fi ] <anchor 978 1480> mark @Anchor0;
+  pos base [\\fl ] <anchor 974 1580> mark @Anchor0;
+  pos base [\\uniE068 ] <anchor 605 1740> mark @Anchor0;
+  pos base [\\uniE069 ] <anchor 624 1709> mark @Anchor0;
+  pos base [\\uniE06A ] <anchor 636 1709> mark @Anchor0;
+  pos base [\\uniE06B ] <anchor 640 1706> mark @Anchor0;
+  pos base [\\uniE06C ] <anchor 580 1709> mark @Anchor0;
+  pos base [\\uniE06D ] <anchor 589 1787> mark @Anchor0;
+  pos base [\\uniE06E ] <anchor 624 1721> mark @Anchor0;
+  pos base [\\uniE070 ] <anchor 423 1361> mark @Anchor0;
+  pos base [\\uniE071 ] <anchor 828 1289> mark @Anchor0;
+  pos base [\\uniE072 ] <anchor 549 1320> mark @Anchor0;
+  pos base [\\uniE217 ] <anchor 1363 1363> mark @Anchor0;
+  pos base [\\uniE227 ] <anchor 1239 1239> mark @Anchor0;
+  pos base [\\uniE230 ] <anchor 605 1376> mark @Anchor0;
+  pos base [\\uniE24F ] <anchor 571 1552> mark @Anchor0;
+  pos base [\\uniE257 ] <anchor 793 1635> mark @Anchor0;
+  pos base [\\uniE25F ] <anchor 837 1580> mark @Anchor0;
+  pos base [\\uniE26F ] <anchor 917 1462> mark @Anchor0;
+  pos base [\\uniE2A8 ] <anchor 524 1452> mark @Anchor0;
+  pos base [\\uniE2AA ] <anchor 502 1439> mark @Anchor0;
+  pos base [\\uniE2AB ] <anchor 480 1439> mark @Anchor0;
+  pos base [\\uniE2AC ] <anchor 505 1442> mark @Anchor0;
+  pos base [\\uniE2AD ] <anchor 486 1433> mark @Anchor0;
+  pos base [\\uniE2AE ] <anchor 477 1452> mark @Anchor0;
+  pos base [\\uniE2B7 ] <anchor 589 1364> mark @Anchor0;
+  pos base [\\uniE2BF ] <anchor 681 1561> mark @Anchor0;
+  pos base [\\uniE2D7 ] <anchor 966 1363> mark @Anchor0;
+  pos base [\\uniE2D8 ] <anchor 589 1571> mark @Anchor0;
+  pos base [\\uniE2E7 ] <anchor 954 1214> mark @Anchor0;
+  pos base [\\uniE2F8 ] <anchor 831 1580> mark @Anchor0;
+  pos base [\\uniE33F ] <anchor 892 1326> mark @Anchor0;
+  pos base [\\uniE34F ] <anchor 1189 1289> mark @Anchor0;
+  pos base [\\uniE406 ] <anchor 903 1398> mark @Anchor0;
+  pos base [\\uniE491 ] <anchor 793 1709> mark @Anchor0;
+  pos base [\\uniE493 ] <anchor 630 1612> mark @Anchor0;
+  pos base [\\uniE49A ] <anchor 925 1295> mark @Anchor0;
+} markMarkPositioninginEthiopiclookup1;
+";
 name = "<anonymous>";
 },
 {
-code = "#Mark attachment classes (defined in GDEF, used in lookupflags)\012";
+code = "#Mark attachment classes (defined in GDEF, used in lookupflags)
+";
 name = "<anonymous>";
 },
 {
-code = "table GDEF {\012  GlyphClassDef @GDEF_Simple, , @GDEF_Mark, ;\012\012} GDEF;\012";
+code = "table GDEF {
+  GlyphClassDef @GDEF_Simple, , @GDEF_Mark, ;
+
+} GDEF;
+";
 name = "<anonymous>";
 }
 );
 features = (
 {
-code = "script DFLT;\012     language dflt ;\012      lookup ccmpGlyphCompositionDecompositioninEthiopiclookup2;\012\012 script ethi;\012     language dflt ;\012      lookup ccmpGlyphCompositionDecompositioninEthiopiclookup2;\012     language CHG  exclude_dflt;\012      lookup ccmpGlyphCompositionDecompositioninEthiopiclookup2;\012     language GMZ  exclude_dflt;\012      lookup ccmpGlyphCompositionDecompositioninEthiopiclookup2;";
+code = "script DFLT;
+     language dflt ;
+      lookup ccmpGlyphCompositionDecompositioninEthiopiclookup2;
+
+ script ethi;
+     language dflt ;
+      lookup ccmpGlyphCompositionDecompositioninEthiopiclookup2;
+     language CHG  exclude_dflt;
+      lookup ccmpGlyphCompositionDecompositioninEthiopiclookup2;
+     language GMZ  exclude_dflt;
+      lookup ccmpGlyphCompositionDecompositioninEthiopiclookup2;";
 name = ccmp;
 },
 {
-code = "script DFLT;\012     language dflt ;\012      lookup loclLocalizedFormsinEthiopiclookup3;\012\012 script ethi;\012     language dflt ;\012      lookup loclLocalizedFormsinEthiopiclookup3;\012     language CHG  exclude_dflt;\012      lookup loclLocalizedFormsinEthiopiclookup3;\012     language GMZ  exclude_dflt;\012      lookup loclLocalizedFormsinEthiopiclookup3;";
+code = "script DFLT;
+     language dflt ;
+      lookup loclLocalizedFormsinEthiopiclookup3;
+
+ script ethi;
+     language dflt ;
+      lookup loclLocalizedFormsinEthiopiclookup3;
+     language CHG  exclude_dflt;
+      lookup loclLocalizedFormsinEthiopiclookup3;
+     language GMZ  exclude_dflt;
+      lookup loclLocalizedFormsinEthiopiclookup3;";
 name = cv20;
 },
 {
-code = "script ethi;\012     language CHG  exclude_dflt;\012      lookup loclLocalizedFormsinEthiopiclookup5;\012      lookup loclLocalizedFormsinEthiopiclookup8;\012      lookup loclLocalizedFormsinEthiopiclookup10;\012      lookup loclLocalizedFormsinEthiopiclookup11;\012     language GMZ  exclude_dflt;\012      lookup loclLocalizedFormsinEthiopiclookup3;\012      lookup loclLocalizedFormsinEthiopiclookup4;";
+code = "script ethi;
+     language CHG  exclude_dflt;
+      lookup loclLocalizedFormsinEthiopiclookup5;
+      lookup loclLocalizedFormsinEthiopiclookup8;
+      lookup loclLocalizedFormsinEthiopiclookup10;
+      lookup loclLocalizedFormsinEthiopiclookup11;
+     language GMZ  exclude_dflt;
+      lookup loclLocalizedFormsinEthiopiclookup3;
+      lookup loclLocalizedFormsinEthiopiclookup4;";
 name = locl;
 },
 {
-code = "script DFLT;\012     language dflt ;\012      lookup SingleSubstitutioninEthiopiclookup6;\012\012 script ethi;\012     language dflt ;\012      lookup SingleSubstitutioninEthiopiclookup6;\012     language CHG  exclude_dflt;\012      lookup SingleSubstitutioninEthiopiclookup6;\012     language GMZ  exclude_dflt;\012      lookup SingleSubstitutioninEthiopiclookup6;";
+code = "script DFLT;
+     language dflt ;
+      lookup SingleSubstitutioninEthiopiclookup6;
+
+ script ethi;
+     language dflt ;
+      lookup SingleSubstitutioninEthiopiclookup6;
+     language CHG  exclude_dflt;
+      lookup SingleSubstitutioninEthiopiclookup6;
+     language GMZ  exclude_dflt;
+      lookup SingleSubstitutioninEthiopiclookup6;";
 name = cv41;
 },
 {
-code = "script DFLT;\012     language dflt ;\012      lookup SingleSubstitutioninEthiopiclookup7;\012\012 script ethi;\012     language dflt ;\012      lookup SingleSubstitutioninEthiopiclookup7;\012     language CHG  exclude_dflt;\012      lookup SingleSubstitutioninEthiopiclookup7;\012     language GMZ  exclude_dflt;\012      lookup SingleSubstitutioninEthiopiclookup7;";
+code = "script DFLT;
+     language dflt ;
+      lookup SingleSubstitutioninEthiopiclookup7;
+
+ script ethi;
+     language dflt ;
+      lookup SingleSubstitutioninEthiopiclookup7;
+     language CHG  exclude_dflt;
+      lookup SingleSubstitutioninEthiopiclookup7;
+     language GMZ  exclude_dflt;
+      lookup SingleSubstitutioninEthiopiclookup7;";
 name = cv42;
 },
 {
-code = "script DFLT;\012     language dflt ;\012      lookup SingleSubstitutioninEthiopiclookup9;\012\012 script ethi;\012     language dflt ;\012      lookup SingleSubstitutioninEthiopiclookup9;\012     language CHG  exclude_dflt;\012      lookup SingleSubstitutioninEthiopiclookup9;\012     language GMZ  exclude_dflt;\012      lookup SingleSubstitutioninEthiopiclookup9;";
+code = "script DFLT;
+     language dflt ;
+      lookup SingleSubstitutioninEthiopiclookup9;
+
+ script ethi;
+     language dflt ;
+      lookup SingleSubstitutioninEthiopiclookup9;
+     language CHG  exclude_dflt;
+      lookup SingleSubstitutioninEthiopiclookup9;
+     language GMZ  exclude_dflt;
+      lookup SingleSubstitutioninEthiopiclookup9;";
 name = cv70;
 },
 {
-code = "script DFLT;\012     language dflt ;\012      lookup loclLocalizedFormsinEthiopiclookup10;\012\012 script ethi;\012     language dflt ;\012      lookup loclLocalizedFormsinEthiopiclookup10;\012     language CHG  exclude_dflt;\012      lookup loclLocalizedFormsinEthiopiclookup10;\012     language GMZ  exclude_dflt;\012      lookup loclLocalizedFormsinEthiopiclookup10;";
+code = "script DFLT;
+     language dflt ;
+      lookup loclLocalizedFormsinEthiopiclookup10;
+
+ script ethi;
+     language dflt ;
+      lookup loclLocalizedFormsinEthiopiclookup10;
+     language CHG  exclude_dflt;
+      lookup loclLocalizedFormsinEthiopiclookup10;
+     language GMZ  exclude_dflt;
+      lookup loclLocalizedFormsinEthiopiclookup10;";
 name = cv80;
 },
 {
-code = "script DFLT;\012     language dflt ;\012      lookup loclLocalizedFormsinEthiopiclookup11;\012\012 script ethi;\012     language dflt ;\012      lookup loclLocalizedFormsinEthiopiclookup11;\012     language CHG  exclude_dflt;\012      lookup loclLocalizedFormsinEthiopiclookup11;\012     language GMZ  exclude_dflt;\012      lookup loclLocalizedFormsinEthiopiclookup11;";
+code = "script DFLT;
+     language dflt ;
+      lookup loclLocalizedFormsinEthiopiclookup11;
+
+ script ethi;
+     language dflt ;
+      lookup loclLocalizedFormsinEthiopiclookup11;
+     language CHG  exclude_dflt;
+      lookup loclLocalizedFormsinEthiopiclookup11;
+     language GMZ  exclude_dflt;
+      lookup loclLocalizedFormsinEthiopiclookup11;";
 name = cv85;
 },
 {
-code = "script DFLT;\012     language dflt ;\012      lookup cv01CharacterVariants01inEthiopiclookup12;\012\012 script ethi;\012     language dflt ;\012      lookup cv01CharacterVariants01inEthiopiclookup12;\012     language CHG  exclude_dflt;\012      lookup cv01CharacterVariants01inEthiopiclookup12;\012     language GMZ  exclude_dflt;\012      lookup cv01CharacterVariants01inEthiopiclookup12;";
+code = "script DFLT;
+     language dflt ;
+      lookup cv01CharacterVariants01inEthiopiclookup12;
+
+ script ethi;
+     language dflt ;
+      lookup cv01CharacterVariants01inEthiopiclookup12;
+     language CHG  exclude_dflt;
+      lookup cv01CharacterVariants01inEthiopiclookup12;
+     language GMZ  exclude_dflt;
+      lookup cv01CharacterVariants01inEthiopiclookup12;";
 name = cv01;
 },
 {
-code = "script DFLT;\012     language dflt ;\012      lookup cv04CharacterVariants04inEthiopiclookup13;\012\012 script ethi;\012     language dflt ;\012      lookup cv04CharacterVariants04inEthiopiclookup13;\012     language CHG  exclude_dflt;\012      lookup cv04CharacterVariants04inEthiopiclookup13;\012     language GMZ  exclude_dflt;\012      lookup cv04CharacterVariants04inEthiopiclookup13;";
+code = "script DFLT;
+     language dflt ;
+      lookup cv04CharacterVariants04inEthiopiclookup13;
+
+ script ethi;
+     language dflt ;
+      lookup cv04CharacterVariants04inEthiopiclookup13;
+     language CHG  exclude_dflt;
+      lookup cv04CharacterVariants04inEthiopiclookup13;
+     language GMZ  exclude_dflt;
+      lookup cv04CharacterVariants04inEthiopiclookup13;";
 name = cv04;
 },
 {
-code = "script DFLT;\012     language dflt ;\012      lookup cv05CharacterVariants05inEthiopiclookup14;\012\012 script ethi;\012     language dflt ;\012      lookup cv05CharacterVariants05inEthiopiclookup14;\012     language CHG  exclude_dflt;\012      lookup cv05CharacterVariants05inEthiopiclookup14;\012     language GMZ  exclude_dflt;\012      lookup cv05CharacterVariants05inEthiopiclookup14;";
+code = "script DFLT;
+     language dflt ;
+      lookup cv05CharacterVariants05inEthiopiclookup14;
+
+ script ethi;
+     language dflt ;
+      lookup cv05CharacterVariants05inEthiopiclookup14;
+     language CHG  exclude_dflt;
+      lookup cv05CharacterVariants05inEthiopiclookup14;
+     language GMZ  exclude_dflt;
+      lookup cv05CharacterVariants05inEthiopiclookup14;";
 name = cv05;
 },
 {
-code = "script DFLT;\012     language dflt ;\012      lookup SingleSubstitutioninEthiopiclookup15;\012\012 script ethi;\012     language dflt ;\012      lookup SingleSubstitutioninEthiopiclookup15;\012     language CHG  exclude_dflt;\012      lookup SingleSubstitutioninEthiopiclookup15;\012     language GMZ  exclude_dflt;\012      lookup SingleSubstitutioninEthiopiclookup15;";
+code = "script DFLT;
+     language dflt ;
+      lookup SingleSubstitutioninEthiopiclookup15;
+
+ script ethi;
+     language dflt ;
+      lookup SingleSubstitutioninEthiopiclookup15;
+     language CHG  exclude_dflt;
+      lookup SingleSubstitutioninEthiopiclookup15;
+     language GMZ  exclude_dflt;
+      lookup SingleSubstitutioninEthiopiclookup15;";
 name = cv17;
 },
 {
-code = "script DFLT;\012     language dflt ;\012      lookup SingleSubstitutioninEthiopiclookup16;\012\012 script ethi;\012     language dflt ;\012      lookup SingleSubstitutioninEthiopiclookup16;\012     language CHG  exclude_dflt;\012      lookup SingleSubstitutioninEthiopiclookup16;\012     language GMZ  exclude_dflt;\012      lookup SingleSubstitutioninEthiopiclookup16;";
+code = "script DFLT;
+     language dflt ;
+      lookup SingleSubstitutioninEthiopiclookup16;
+
+ script ethi;
+     language dflt ;
+      lookup SingleSubstitutioninEthiopiclookup16;
+     language CHG  exclude_dflt;
+      lookup SingleSubstitutioninEthiopiclookup16;
+     language GMZ  exclude_dflt;
+      lookup SingleSubstitutioninEthiopiclookup16;";
 name = cv18;
 },
 {
-code = "script DFLT;\012     language dflt ;\012      lookup SingleSubstitutioninEthiopiclookup17;\012\012 script ethi;\012     language dflt ;\012      lookup SingleSubstitutioninEthiopiclookup17;\012     language CHG  exclude_dflt;\012      lookup SingleSubstitutioninEthiopiclookup17;\012     language GMZ  exclude_dflt;\012      lookup SingleSubstitutioninEthiopiclookup17;";
+code = "script DFLT;
+     language dflt ;
+      lookup SingleSubstitutioninEthiopiclookup17;
+
+ script ethi;
+     language dflt ;
+      lookup SingleSubstitutioninEthiopiclookup17;
+     language CHG  exclude_dflt;
+      lookup SingleSubstitutioninEthiopiclookup17;
+     language GMZ  exclude_dflt;
+      lookup SingleSubstitutioninEthiopiclookup17;";
 name = cv19;
 },
 {
-code = "script DFLT;\012     language dflt ;\012      lookup AlternateSubstitutioninEthiopiclookup18;\012\012 script ethi;\012     language dflt ;\012      lookup AlternateSubstitutioninEthiopiclookup18;\012     language CHG  exclude_dflt;\012      lookup AlternateSubstitutioninEthiopiclookup18;\012     language GMZ  exclude_dflt;\012      lookup AlternateSubstitutioninEthiopiclookup18;";
+code = "script DFLT;
+     language dflt ;
+      lookup AlternateSubstitutioninEthiopiclookup18;
+
+ script ethi;
+     language dflt ;
+      lookup AlternateSubstitutioninEthiopiclookup18;
+     language CHG  exclude_dflt;
+      lookup AlternateSubstitutioninEthiopiclookup18;
+     language GMZ  exclude_dflt;
+      lookup AlternateSubstitutioninEthiopiclookup18;";
 name = cv21;
 },
 {
-code = "script DFLT;\012     language dflt ;\012      lookup SingleSubstitutioninEthiopiclookup19;\012\012 script ethi;\012     language dflt ;\012      lookup SingleSubstitutioninEthiopiclookup19;\012     language CHG  exclude_dflt;\012      lookup SingleSubstitutioninEthiopiclookup19;\012     language GMZ  exclude_dflt;\012      lookup SingleSubstitutioninEthiopiclookup19;";
+code = "script DFLT;
+     language dflt ;
+      lookup SingleSubstitutioninEthiopiclookup19;
+
+ script ethi;
+     language dflt ;
+      lookup SingleSubstitutioninEthiopiclookup19;
+     language CHG  exclude_dflt;
+      lookup SingleSubstitutioninEthiopiclookup19;
+     language GMZ  exclude_dflt;
+      lookup SingleSubstitutioninEthiopiclookup19;";
 name = cv26;
 },
 {
-code = "script DFLT;\012     language dflt ;\012      lookup AlternateSubstitutioninEthiopiclookup20;\012\012 script ethi;\012     language dflt ;\012      lookup AlternateSubstitutioninEthiopiclookup20;\012     language CHG  exclude_dflt;\012      lookup AlternateSubstitutioninEthiopiclookup20;\012     language GMZ  exclude_dflt;\012      lookup AlternateSubstitutioninEthiopiclookup20;";
+code = "script DFLT;
+     language dflt ;
+      lookup AlternateSubstitutioninEthiopiclookup20;
+
+ script ethi;
+     language dflt ;
+      lookup AlternateSubstitutioninEthiopiclookup20;
+     language CHG  exclude_dflt;
+      lookup AlternateSubstitutioninEthiopiclookup20;
+     language GMZ  exclude_dflt;
+      lookup AlternateSubstitutioninEthiopiclookup20;";
 name = cv31;
 },
 {
-code = "script DFLT;\012     language dflt ;\012      lookup SingleSubstitutioninEthiopiclookup21;\012\012 script ethi;\012     language dflt ;\012      lookup SingleSubstitutioninEthiopiclookup21;\012     language CHG  exclude_dflt;\012      lookup SingleSubstitutioninEthiopiclookup21;\012     language GMZ  exclude_dflt;\012      lookup SingleSubstitutioninEthiopiclookup21;";
+code = "script DFLT;
+     language dflt ;
+      lookup SingleSubstitutioninEthiopiclookup21;
+
+ script ethi;
+     language dflt ;
+      lookup SingleSubstitutioninEthiopiclookup21;
+     language CHG  exclude_dflt;
+      lookup SingleSubstitutioninEthiopiclookup21;
+     language GMZ  exclude_dflt;
+      lookup SingleSubstitutioninEthiopiclookup21;";
 name = cv32;
 },
 {
-code = "script DFLT;\012     language dflt ;\012      lookup AlternateSubstitutioninEthiopiclookup22;\012\012 script ethi;\012     language dflt ;\012      lookup AlternateSubstitutioninEthiopiclookup22;\012     language CHG  exclude_dflt;\012      lookup AlternateSubstitutioninEthiopiclookup22;\012     language GMZ  exclude_dflt;\012      lookup AlternateSubstitutioninEthiopiclookup22;";
+code = "script DFLT;
+     language dflt ;
+      lookup AlternateSubstitutioninEthiopiclookup22;
+
+ script ethi;
+     language dflt ;
+      lookup AlternateSubstitutioninEthiopiclookup22;
+     language CHG  exclude_dflt;
+      lookup AlternateSubstitutioninEthiopiclookup22;
+     language GMZ  exclude_dflt;
+      lookup AlternateSubstitutioninEthiopiclookup22;";
 name = cv40;
 },
 {
-code = "script DFLT;\012     language dflt ;\012      lookup SingleSubstitutioninEthiopiclookup23;\012\012 script ethi;\012     language dflt ;\012      lookup SingleSubstitutioninEthiopiclookup23;\012     language CHG  exclude_dflt;\012      lookup SingleSubstitutioninEthiopiclookup23;\012     language GMZ  exclude_dflt;\012      lookup SingleSubstitutioninEthiopiclookup23;";
+code = "script DFLT;
+     language dflt ;
+      lookup SingleSubstitutioninEthiopiclookup23;
+
+ script ethi;
+     language dflt ;
+      lookup SingleSubstitutioninEthiopiclookup23;
+     language CHG  exclude_dflt;
+      lookup SingleSubstitutioninEthiopiclookup23;
+     language GMZ  exclude_dflt;
+      lookup SingleSubstitutioninEthiopiclookup23;";
 name = cv45;
 },
 {
-code = "script DFLT;\012     language dflt ;\012      lookup SingleSubstitutioninEthiopiclookup24;\012\012 script ethi;\012     language dflt ;\012      lookup SingleSubstitutioninEthiopiclookup24;\012     language CHG  exclude_dflt;\012      lookup SingleSubstitutioninEthiopiclookup24;\012     language GMZ  exclude_dflt;\012      lookup SingleSubstitutioninEthiopiclookup24;";
+code = "script DFLT;
+     language dflt ;
+      lookup SingleSubstitutioninEthiopiclookup24;
+
+ script ethi;
+     language dflt ;
+      lookup SingleSubstitutioninEthiopiclookup24;
+     language CHG  exclude_dflt;
+      lookup SingleSubstitutioninEthiopiclookup24;
+     language GMZ  exclude_dflt;
+      lookup SingleSubstitutioninEthiopiclookup24;";
 name = cv46;
 },
 {
-code = "script DFLT;\012     language dflt ;\012      lookup AlternateSubstitutioninEthiopiclookup25;\012\012 script ethi;\012     language dflt ;\012      lookup AlternateSubstitutioninEthiopiclookup25;\012     language CHG  exclude_dflt;\012      lookup AlternateSubstitutioninEthiopiclookup25;\012     language GMZ  exclude_dflt;\012      lookup AlternateSubstitutioninEthiopiclookup25;";
+code = "script DFLT;
+     language dflt ;
+      lookup AlternateSubstitutioninEthiopiclookup25;
+
+ script ethi;
+     language dflt ;
+      lookup AlternateSubstitutioninEthiopiclookup25;
+     language CHG  exclude_dflt;
+      lookup AlternateSubstitutioninEthiopiclookup25;
+     language GMZ  exclude_dflt;
+      lookup AlternateSubstitutioninEthiopiclookup25;";
 name = cv48;
 },
 {
-code = "script DFLT;\012     language dflt ;\012      lookup SingleSubstitutioninEthiopiclookup26;\012\012 script ethi;\012     language dflt ;\012      lookup SingleSubstitutioninEthiopiclookup26;\012     language CHG  exclude_dflt;\012      lookup SingleSubstitutioninEthiopiclookup26;\012     language GMZ  exclude_dflt;\012      lookup SingleSubstitutioninEthiopiclookup26;";
+code = "script DFLT;
+     language dflt ;
+      lookup SingleSubstitutioninEthiopiclookup26;
+
+ script ethi;
+     language dflt ;
+      lookup SingleSubstitutioninEthiopiclookup26;
+     language CHG  exclude_dflt;
+      lookup SingleSubstitutioninEthiopiclookup26;
+     language GMZ  exclude_dflt;
+      lookup SingleSubstitutioninEthiopiclookup26;";
 name = cv49;
 },
 {
-code = "script DFLT;\012     language dflt ;\012      lookup SingleSubstitutioninEthiopiclookup27;\012\012 script ethi;\012     language dflt ;\012      lookup SingleSubstitutioninEthiopiclookup27;\012     language CHG  exclude_dflt;\012      lookup SingleSubstitutioninEthiopiclookup27;\012     language GMZ  exclude_dflt;\012      lookup SingleSubstitutioninEthiopiclookup27;";
+code = "script DFLT;
+     language dflt ;
+      lookup SingleSubstitutioninEthiopiclookup27;
+
+ script ethi;
+     language dflt ;
+      lookup SingleSubstitutioninEthiopiclookup27;
+     language CHG  exclude_dflt;
+      lookup SingleSubstitutioninEthiopiclookup27;
+     language GMZ  exclude_dflt;
+      lookup SingleSubstitutioninEthiopiclookup27;";
 name = cv50;
 },
 {
-code = "script DFLT;\012     language dflt ;\012      lookup AlternateSubstitutioninEthiopiclookup28;\012\012 script ethi;\012     language dflt ;\012      lookup AlternateSubstitutioninEthiopiclookup28;\012     language CHG  exclude_dflt;\012      lookup AlternateSubstitutioninEthiopiclookup28;\012     language GMZ  exclude_dflt;\012      lookup AlternateSubstitutioninEthiopiclookup28;";
+code = "script DFLT;
+     language dflt ;
+      lookup AlternateSubstitutioninEthiopiclookup28;
+
+ script ethi;
+     language dflt ;
+      lookup AlternateSubstitutioninEthiopiclookup28;
+     language CHG  exclude_dflt;
+      lookup AlternateSubstitutioninEthiopiclookup28;
+     language GMZ  exclude_dflt;
+      lookup AlternateSubstitutioninEthiopiclookup28;";
 name = cv60;
 },
 {
-code = "script DFLT;\012     language dflt ;\012      lookup AlternateSubstitutioninEthiopiclookup29;\012\012 script ethi;\012     language dflt ;\012      lookup AlternateSubstitutioninEthiopiclookup29;\012     language CHG  exclude_dflt;\012      lookup AlternateSubstitutioninEthiopiclookup29;\012     language GMZ  exclude_dflt;\012      lookup AlternateSubstitutioninEthiopiclookup29;";
+code = "script DFLT;
+     language dflt ;
+      lookup AlternateSubstitutioninEthiopiclookup29;
+
+ script ethi;
+     language dflt ;
+      lookup AlternateSubstitutioninEthiopiclookup29;
+     language CHG  exclude_dflt;
+      lookup AlternateSubstitutioninEthiopiclookup29;
+     language GMZ  exclude_dflt;
+      lookup AlternateSubstitutioninEthiopiclookup29;";
 name = cv61;
 },
 {
-code = "script DFLT;\012     language dflt ;\012      lookup SingleSubstitutioninEthiopiclookup30;\012\012 script ethi;\012     language dflt ;\012      lookup SingleSubstitutioninEthiopiclookup30;\012     language CHG  exclude_dflt;\012      lookup SingleSubstitutioninEthiopiclookup30;\012     language GMZ  exclude_dflt;\012      lookup SingleSubstitutioninEthiopiclookup30;";
+code = "script DFLT;
+     language dflt ;
+      lookup SingleSubstitutioninEthiopiclookup30;
+
+ script ethi;
+     language dflt ;
+      lookup SingleSubstitutioninEthiopiclookup30;
+     language CHG  exclude_dflt;
+      lookup SingleSubstitutioninEthiopiclookup30;
+     language GMZ  exclude_dflt;
+      lookup SingleSubstitutioninEthiopiclookup30;";
 name = cv62;
 },
 {
-code = "script DFLT;\012     language dflt ;\012      lookup SingleSubstitutioninEthiopiclookup31;\012\012 script ethi;\012     language dflt ;\012      lookup SingleSubstitutioninEthiopiclookup31;\012     language CHG  exclude_dflt;\012      lookup SingleSubstitutioninEthiopiclookup31;\012     language GMZ  exclude_dflt;\012      lookup SingleSubstitutioninEthiopiclookup31;";
+code = "script DFLT;
+     language dflt ;
+      lookup SingleSubstitutioninEthiopiclookup31;
+
+ script ethi;
+     language dflt ;
+      lookup SingleSubstitutioninEthiopiclookup31;
+     language CHG  exclude_dflt;
+      lookup SingleSubstitutioninEthiopiclookup31;
+     language GMZ  exclude_dflt;
+      lookup SingleSubstitutioninEthiopiclookup31;";
 name = cv63;
 },
 {
-code = "script DFLT;\012     language dflt ;\012      lookup SingleSubstitutioninEthiopiclookup32;\012\012 script ethi;\012     language dflt ;\012      lookup SingleSubstitutioninEthiopiclookup32;\012     language CHG  exclude_dflt;\012      lookup SingleSubstitutioninEthiopiclookup32;\012     language GMZ  exclude_dflt;\012      lookup SingleSubstitutioninEthiopiclookup32;";
+code = "script DFLT;
+     language dflt ;
+      lookup SingleSubstitutioninEthiopiclookup32;
+
+ script ethi;
+     language dflt ;
+      lookup SingleSubstitutioninEthiopiclookup32;
+     language CHG  exclude_dflt;
+      lookup SingleSubstitutioninEthiopiclookup32;
+     language GMZ  exclude_dflt;
+      lookup SingleSubstitutioninEthiopiclookup32;";
 name = cv64;
 },
 {
-code = "script DFLT;\012     language dflt ;\012      lookup SingleSubstitutioninEthiopiclookup33;\012\012 script ethi;\012     language dflt ;\012      lookup SingleSubstitutioninEthiopiclookup33;\012     language CHG  exclude_dflt;\012      lookup SingleSubstitutioninEthiopiclookup33;\012     language GMZ  exclude_dflt;\012      lookup SingleSubstitutioninEthiopiclookup33;";
+code = "script DFLT;
+     language dflt ;
+      lookup SingleSubstitutioninEthiopiclookup33;
+
+ script ethi;
+     language dflt ;
+      lookup SingleSubstitutioninEthiopiclookup33;
+     language CHG  exclude_dflt;
+      lookup SingleSubstitutioninEthiopiclookup33;
+     language GMZ  exclude_dflt;
+      lookup SingleSubstitutioninEthiopiclookup33;";
 name = cv65;
 },
 {
-code = "script DFLT;\012     language dflt ;\012      lookup kernHorizontalKerninginEthiopiclookup0;\012\012 script ethi;\012     language dflt ;\012      lookup kernHorizontalKerninginEthiopiclookup0;\012     language CHG  exclude_dflt;\012      lookup kernHorizontalKerninginEthiopiclookup0;\012     language GMZ  exclude_dflt;\012      lookup kernHorizontalKerninginEthiopiclookup0;";
+code = "script DFLT;
+     language dflt ;
+      lookup kernHorizontalKerninginEthiopiclookup0;
+
+ script ethi;
+     language dflt ;
+      lookup kernHorizontalKerninginEthiopiclookup0;
+     language CHG  exclude_dflt;
+      lookup kernHorizontalKerninginEthiopiclookup0;
+     language GMZ  exclude_dflt;
+      lookup kernHorizontalKerninginEthiopiclookup0;";
 name = kern;
 },
 {
-code = "script DFLT;\012     language dflt ;\012      lookup markMarkPositioninginEthiopiclookup1;\012\012 script ethi;\012     language dflt ;\012      lookup markMarkPositioninginEthiopiclookup1;\012     language CHG  exclude_dflt;\012      lookup markMarkPositioninginEthiopiclookup1;\012     language GMZ  exclude_dflt;\012      lookup markMarkPositioninginEthiopiclookup1;";
+code = "script DFLT;
+     language dflt ;
+      lookup markMarkPositioninginEthiopiclookup1;
+
+ script ethi;
+     language dflt ;
+      lookup markMarkPositioninginEthiopiclookup1;
+     language CHG  exclude_dflt;
+      lookup markMarkPositioninginEthiopiclookup1;
+     language GMZ  exclude_dflt;
+      lookup markMarkPositioninginEthiopiclookup1;";
 name = mark;
 }
 );
@@ -527,11 +1655,11 @@ value = (
 },
 {
 name = winAscent;
-value = 1502;
+value = 2034;
 },
 {
 name = winDescent;
-value = 446;
+value = 682;
 },
 {
 name = weightClass;
@@ -85750,15 +86878,6 @@ width = 1400;
 );
 },
 {
-glyphname = .null;
-layers = (
-{
-layerId = "39F396E6-2268-4814-9B49-0C64559D5675";
-width = 0;
-}
-);
-},
-{
 glyphname = uni2028;
 layers = (
 {
@@ -98681,6 +99800,17 @@ width = 12;
 );
 },
 {
+glyphname = NULL;
+layers = (
+{
+layerId = "39F396E6-2268-4814-9B49-0C64559D5675";
+width = 0;
+}
+);
+unicode = 0000;
+changeCount = 1;
+},
+{
 glyphname = tab;
 layers = (
 {
@@ -98697,6 +99827,28 @@ layerId = "39F396E6-2268-4814-9B49-0C64559D5675";
 width = 0;
 }
 );
+},
+{
+glyphname = nbspace;
+layers = (
+{
+layerId = "39F396E6-2268-4814-9B49-0C64559D5675";
+width = 922;
+}
+);
+unicode = 00A0;
+changeCount = 1;
+},
+{
+glyphname = CR;
+layers = (
+{
+layerId = "39F396E6-2268-4814-9B49-0C64559D5675";
+width = 922;
+}
+);
+unicode = 000D;
+changeCount = 1;
 }
 );
 instances = (
