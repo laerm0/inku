@@ -6,7 +6,7 @@
     </axis>
   </axes>
   <sources>
-    <source filename="Inku.glyphs" name="Inku SIL Regular" familyname="Inku SIL" stylename="Regular">
+    <source filename="Inku.glyphs" name="Inku Regular" familyname="Inku SIL" stylename="Regular">
       <lib copy="1"/>
       <groups copy="1"/>
       <features copy="1"/>
@@ -17,7 +17,7 @@
     </source>
   </sources>
   <instances>
-    <instance name="Inku SIL Regular" familyname="Inku" stylename="Regular" stylemapfasmilyname="Inku SIL Regular" stylemapstylename="Regular">
+    <instance name="Inku Regular" familyname="Inku" stylename="Regular" stylemapfasmilyname="Inku Regular" stylemapstylename="Regular">
       <location>
         <dimension name="Weight" xvalue="400" />
       </location>
