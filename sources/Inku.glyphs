@@ -6,7 +6,7 @@ code = ".null nonmarkingreturn space exclam exclam.punct quotedbl numbersign dol
 name = GDEF_Simple;
 },
 {
-code = "gravecomb acutecomb circumflexcomb tildecomb uni0304 dotaccentcomb dieresiscomb hungarumlautcomb caroncomb uni030F uni034F uni135D uni135E uni135F uniE50F uniE51F";
+code = "gravecomb acutecomb circumflexcomb tildecomb macroncomb dotaccentcomb dieresiscomb hungarumlautcomb caroncomb dblgravecomb graphemejoinercomb uni135D uni135E uni135F uniE50F uniE51F";
 name = GDEF_Mark;
 }
 );
