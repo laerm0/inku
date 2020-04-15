@@ -1,0 +1,38 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<glyph name="exclam" format="2">
+  <advance width="1106"/>
+  <unicode hex="0021"/>
+  <outline>
+    <contour>
+      <point x="442" y="410" type="line"/>
+      <point x="539" y="410" type="line"/>
+      <point x="609" y="918" type="line" smooth="yes"/>
+      <point x="617" y="971"/>
+      <point x="627" y="1060"/>
+      <point x="627" y="1106" type="qcurve" smooth="yes"/>
+      <point x="627" y="1237"/>
+      <point x="558" y="1337"/>
+      <point x="492" y="1337" type="qcurve" smooth="yes"/>
+      <point x="425" y="1337"/>
+      <point x="352" y="1227"/>
+      <point x="352" y="1108" type="qcurve" smooth="yes"/>
+      <point x="352" y="1053"/>
+      <point x="368" y="950"/>
+      <point x="377" y="879" type="qcurve" smooth="yes"/>
+    </contour>
+    <contour>
+      <point x="494" y="0" type="qcurve" smooth="yes"/>
+      <point x="559" y="0"/>
+      <point x="649" y="92"/>
+      <point x="649" y="158" type="qcurve" smooth="yes"/>
+      <point x="649" y="223"/>
+      <point x="559" y="313"/>
+      <point x="494" y="313" type="qcurve" smooth="yes"/>
+      <point x="428" y="313"/>
+      <point x="336" y="223"/>
+      <point x="336" y="158" type="qcurve" smooth="yes"/>
+      <point x="336" y="92"/>
+      <point x="428" y="0"/>
+    </contour>
+  </outline>
+</glyph>
