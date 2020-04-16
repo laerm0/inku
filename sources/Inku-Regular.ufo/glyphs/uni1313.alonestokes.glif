@@ -1,0 +1,8 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<glyph name="uni1313.alonestokes" format="2">
+  <advance width="1446"/>
+  <anchor x="825" y="1242" name="Anchor-0"/>
+  <outline>
+    <component base="uni1313.oldstyle"/>
+  </outline>
+</glyph>

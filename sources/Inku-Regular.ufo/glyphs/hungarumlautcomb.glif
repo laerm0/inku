@@ -1,0 +1,42 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<glyph name="hungarumlautcomb" format="2">
+  <unicode hex="030B"/>
+  <anchor x="1" y="987" name="_top"/>
+  <anchor x="1" y="1931" name="top"/>
+  <outline>
+    <contour>
+      <point x="-37" y="1558" type="line"/>
+      <point x="80" y="1558" type="line"/>
+      <point x="391" y="1757" type="line" smooth="yes"/>
+      <point x="412" y="1771"/>
+      <point x="438" y="1811"/>
+      <point x="438" y="1839" type="qcurve" smooth="yes"/>
+      <point x="438" y="1871"/>
+      <point x="398" y="1931"/>
+      <point x="344" y="1931" type="qcurve" smooth="yes"/>
+      <point x="303" y="1931"/>
+      <point x="259" y="1902"/>
+      <point x="238" y="1876" type="qcurve" smooth="yes"/>
+    </contour>
+    <contour>
+      <point x="-436" y="1558" type="line"/>
+      <point x="-319" y="1558" type="line"/>
+      <point x="-10" y="1757" type="line" smooth="yes"/>
+      <point x="12" y="1771"/>
+      <point x="39" y="1811"/>
+      <point x="39" y="1839" type="qcurve" smooth="yes"/>
+      <point x="39" y="1871"/>
+      <point x="-2" y="1931"/>
+      <point x="-55" y="1931" type="qcurve" smooth="yes"/>
+      <point x="-98" y="1931"/>
+      <point x="-141" y="1902"/>
+      <point x="-164" y="1876" type="qcurve" smooth="yes"/>
+    </contour>
+  </outline>
+  <lib>
+    <dict>
+      <key>com.schriftgestaltung.Glyphs.originalWidth</key>
+      <integer>2</integer>
+    </dict>
+  </lib>
+</glyph>

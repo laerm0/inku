@@ -6,7 +6,7 @@ code = ".null nonmarkingreturn space exclam exclam.punct quotedbl numbersign dol
 name = GDEF_Simple;
 },
 {
-code = "gravecomb acutecomb circumflexcomb tildecomb uni0304 dotaccentcomb dieresiscomb hungarumlautcomb caroncomb uni030F uni034F uni135D uni135E uni135F uniE50F uniE51F";
+code = "gravecomb acutecomb circumflexcomb tildecomb macroncomb dotaccentcomb dieresiscomb hungarumlautcomb caroncomb dblgravecomb graphemejoinercomb uni135D uni135E uni135F uniE50F uniE51F";
 name = GDEF_Mark;
 }
 );
@@ -486,8 +486,8 @@ lookup kernHorizontalKerninginEthiopiclookup0 {
 
 lookup markMarkPositioninginEthiopiclookup1 {
   lookupflag 0;
-  markClass [\\gravecomb \\acutecomb \\uni0302 \\tildecomb \\uni0304 \\uni0307 \\uni0308 \\uni030B \\uni030C \\uni030F \\uniE50F \\uniE51F ] <anchor -830 1450> @Anchor0;
-  markClass [\\uni034F ] <anchor 0 0> @Anchor0;
+  markClass [\\gravecomb \\acutecomb \\circumflexcomb \\tildecomb \\macroncomb \\dotaccentcomb \\dieresiscomb \\hungarumlautcomb \\caroncomb \\dblgravecomb \\uniE50F \\uniE51F ] <anchor -830 1450> @Anchor0;
+  markClass [\\graphemejoinercomb ] <anchor 0 0> @Anchor0;
   markClass [\\uni135D ] <anchor -547 1451> @Anchor0;
   markClass [\\uni135E ] <anchor -547 1464> @Anchor0;
   markClass [\\uni135F ] <anchor -546 1450> @Anchor0;

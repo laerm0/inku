@@ -1,0 +1,8 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<glyph name="uni138F.sebLes5" format="2">
+  <advance width="1706"/>
+  <anchor x="727" y="1176" name="Anchor-0"/>
+  <outline>
+    <component base="uni138F.sebLes"/>
+  </outline>
+</glyph>
